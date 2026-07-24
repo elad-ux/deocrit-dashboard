@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "bottomRow": 31,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.875rem",
+  "isLoading": false,
+  "isVisible": "{{!!appsmith.store.loginError}}",
+  "leftColumn": 22,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 42,
+  "text": "{{appsmith.store.loginError}}",
+  "textAlign": "CENTER",
+  "textColor": "#dc2626",
+  "topRow": 28,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "fyizwzlfsd",
+  "widgetName": "txt_error"
+}

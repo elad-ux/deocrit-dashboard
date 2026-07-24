@@ -1,0 +1,27 @@
+{
+  "animateLoading": true,
+  "bottomRow": 38,
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "label": "",
+  "leftColumn": 1,
+  "options": "{{(() => { const c=(CDContainerDetail.data && CDContainerDetail.data.container)||{}; return (c.container_suppliers||[]).map(s=>({label:s.supplier_name, value:s.id})); })()}}",
+  "parentColumnSpace": 306,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "שייך לספק",
+  "rightColumn": 4,
+  "serverSideFiltering": false,
+  "topRow": 37,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "5kdf4gsryq",
+  "widgetName": "sel_cd_supplier"
+}

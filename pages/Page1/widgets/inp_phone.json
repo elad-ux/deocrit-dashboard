@@ -1,0 +1,30 @@
+{
+  "animateLoading": true,
+  "bottomRow": 22,
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!appsmith.store.loginStep || appsmith.store.loginStep === 'phone'}}",
+  "label": "",
+  "labelPosition": "Top",
+  "leftColumn": 24,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "0501234567",
+  "resetOnSubmit": false,
+  "rightColumn": 40,
+  "topRow": 18,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "kug6ergyz2",
+  "widgetName": "inp_phone"
+}

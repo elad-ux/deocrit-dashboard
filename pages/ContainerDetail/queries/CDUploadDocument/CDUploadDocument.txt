@@ -1,0 +1,1 @@
+{"session_token": "{{appsmith.store.sessionToken}}", "container_number": "{{appsmith.store.selectedContainerNumber}}", "supplier_id": "{{sel_cd_supplier.selectedOptionValue}}", "doc_type": "{{sel_cd_doctype.selectedOptionValue}}", "original_name": "{{fp_cd_upload.files[0].name}}", "file_base64": "{{fp_cd_upload.files[0].data}}", "mime_type": "{{fp_cd_upload.files[0].type}}"}

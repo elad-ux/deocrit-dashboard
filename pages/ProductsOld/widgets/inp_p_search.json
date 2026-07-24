@@ -1,0 +1,30 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 68,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inputType": "MULTI_LINE_TEXT",
+  "isLoading": false,
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 8,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 76.5,
+  "parentRowSpace": 10,
+  "placeholderText": "חיפוש מוצר או SKU",
+  "rightColumn": 120,
+  "topRow": 52,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "f9gz6gyye9",
+  "widgetName": "inp_p_search"
+}

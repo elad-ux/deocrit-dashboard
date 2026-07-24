@@ -1,0 +1,19 @@
+{
+  "animateLoading": true,
+  "bottomRow": 8,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontSize": "2rem",
+  "isLoading": false,
+  "leftColumn": 5,
+  "parentColumnSpace": 19.125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 40,
+  "text": "PAGE2_API_INJECTED_TEST",
+  "topRow": 5,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "qygcexcbnz",
+  "widgetName": "txt_page2_test"
+}

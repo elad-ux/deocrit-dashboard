@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "6a418a826d3fda31091c7857_dbbce201-c79e-4776-a90d-c2f610357971",
+  "unpublishedPage": {
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "#FFFFFF",
+          "bottomRow": 5200,
+          "canExtend": false,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 19584,
+          "snapColumns": 64,
+          "snapRows": 129,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 94,
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "ContainerDetailOld",
+    "slug": "containerdetailold"
+  }
+}

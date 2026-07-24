@@ -1,0 +1,10 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "upsert",
+  "payload": {
+    "id": "{{appsmith.store.editId || ''}}",
+    "name": "{{inp_new_name.text}}",
+    "sku": "{{inp_new_sku.text}}",
+    "category": "{{sel_new_category.selectedOptionValue}}"
+  }
+}

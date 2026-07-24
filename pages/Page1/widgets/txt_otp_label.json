@@ -1,0 +1,26 @@
+{
+  "animateLoading": true,
+  "bottomRow": 18,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.875rem",
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.loginStep === 'otp'}}",
+  "leftColumn": 24,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 40,
+  "text": "קוד אימות נשלח אליך בוואצאפ",
+  "textAlign": "RIGHT",
+  "textColor": "#3f3f46",
+  "topRow": 16,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "oj7z10m23p",
+  "widgetName": "txt_otp_label"
+}

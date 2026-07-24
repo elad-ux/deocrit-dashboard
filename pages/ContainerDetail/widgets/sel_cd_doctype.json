@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "bottomRow": 38,
+  "defaultOptionValue": "other",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "label": "",
+  "leftColumn": 4,
+  "options": [
+    {
+      "label": "B/L",
+      "value": "bl"
+    },
+    {
+      "label": "רשימת אריזה",
+      "value": "packing_list"
+    },
+    {
+      "label": "חשבונית",
+      "value": "invoice"
+    },
+    {
+      "label": "תעודת מקור",
+      "value": "certificate_of_origin"
+    },
+    {
+      "label": "אחר",
+      "value": "other"
+    }
+  ],
+  "parentColumnSpace": 306,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "סוג מסמך",
+  "rightColumn": 7,
+  "serverSideFiltering": false,
+  "topRow": 37,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "75yhbpl55u",
+  "widgetName": "sel_cd_doctype"
+}

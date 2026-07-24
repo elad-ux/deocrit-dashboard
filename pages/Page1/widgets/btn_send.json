@@ -1,0 +1,35 @@
+{
+  "animateLoading": true,
+  "bottomRow": 27,
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!appsmith.store.loginStep || appsmith.store.loginStep === 'phone'}}",
+  "leftColumn": 24,
+  "onClick": "{{OtpRequest.run().then((r) => { if (r.registered) { storeValue('loginPhone', inp_phone.text); storeValue('loginStep','otp'); storeValue('loginError',''); } else { storeValue('loginError','אינך רשום במערכת. פנה למנהל המערכת להרשמה.'); } }).catch(() => storeValue('loginError','שגיאת תקשורת, נסה שוב'))}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 40,
+  "text": "היכנס",
+  "topRow": 23,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "k0kagyq1yo",
+  "widgetName": "btn_send"
+}

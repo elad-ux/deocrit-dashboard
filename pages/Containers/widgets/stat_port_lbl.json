@@ -1,0 +1,21 @@
+{
+  "animateLoading": true,
+  "bottomRow": 12,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.875rem",
+  "isLoading": false,
+  "leftColumn": 36,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 48,
+  "text": "בנמל היעד",
+  "textAlign": "RIGHT",
+  "textColor": "#6B7280",
+  "topRow": 10,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "qyzzv2c574",
+  "widgetName": "stat_port_lbl"
+}

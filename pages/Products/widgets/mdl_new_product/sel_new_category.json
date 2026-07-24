@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "bottomRow": 29,
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "label": "קטגוריה",
+  "labelPosition": "Top",
+  "leftColumn": 1,
+  "options": [
+    {
+      "label": "שטיחים",
+      "value": "שטיחים"
+    },
+    {
+      "label": "מנועים",
+      "value": "מנועים"
+    },
+    {
+      "label": "שלטים",
+      "value": "שלטים"
+    }
+  ],
+  "parentColumnSpace": 76.5,
+  "parentId": "q0llclfmf7",
+  "parentRowSpace": 10,
+  "rightColumn": 63,
+  "topRow": 22,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "3t9j95y6ld",
+  "widgetName": "sel_new_category"
+}

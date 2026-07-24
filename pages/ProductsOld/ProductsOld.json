@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "6a418a826d3fda31091c7857_db9f0682-c26e-4c06-8117-99acf88896c0",
+  "unpublishedPage": {
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "#FFFFFF",
+          "bottomRow": 5200,
+          "canExtend": false,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 19584,
+          "snapColumns": 64,
+          "snapRows": 129,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 94,
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "ProductsOld",
+    "slug": "productsold"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 124,
+  "boxShadow": "none",
+  "defaultText": "{{(CDContainerDetail.data.container||{}).warehouse_arrival_date || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inputType": "MULTI_LINE_TEXT",
+  "isLoading": false,
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 96,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 76.5,
+  "parentRowSpace": 10,
+  "placeholderText": "YYYY-MM-DD HH:MM",
+  "rightColumn": 160,
+  "topRow": 112,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "3xxrsu6l0e",
+  "widgetName": "inp_cd_arrival"
+}

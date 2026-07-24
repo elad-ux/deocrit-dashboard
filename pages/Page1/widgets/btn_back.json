@@ -1,0 +1,33 @@
+{
+  "animateLoading": true,
+  "bottomRow": 35,
+  "buttonColor": "#1c1e21",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.loginStep === 'otp'}}",
+  "leftColumn": 28,
+  "onClick": "{{storeValue('loginStep','phone'); storeValue('loginError','')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 36,
+  "text": "חזרה",
+  "topRow": 32,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5580anxhk4",
+  "widgetName": "btn_back"
+}

@@ -1,0 +1,30 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 160,
+  "boxShadow": "none",
+  "buttonColor": "#B8863B",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "onClick": "{{CDUploadDocument.run().then(()=>{showAlert('הועלה בהצלחה','success'); CDDocumentsList.run();}).catch(()=>showAlert('העלאה נכשלה','error'))}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 15,
+  "text": "העלה",
+  "topRow": 154,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "apcfwbelys",
+  "widgetName": "btn_cd_upload"
+}

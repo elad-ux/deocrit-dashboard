@@ -1,0 +1,1 @@
+{"session_token": "{{appsmith.store.sessionToken}}", "container_id": "{{appsmith.store.selectedContainerId}}", "updates": {"ownership_confirmed_by": "{{appsmith.store.userName}}", "ownership_confirmed_at": "{{(new Date()).toISOString()}}"}}

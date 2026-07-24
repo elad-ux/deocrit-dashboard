@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "bottomRow": 16,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.8rem",
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.loginStep === 'otp'}}",
+  "leftColumn": 22,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 42,
+  "text": "{{'קוד נשלח למספר: ' + (appsmith.store.loginPhone || '')}}",
+  "textAlign": "CENTER",
+  "textColor": "#3f3f46",
+  "topRow": 14,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "slgriis5dx",
+  "widgetName": "txt_otp_phone_shown"
+}

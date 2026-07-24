@@ -1,0 +1,21 @@
+{
+  "animateLoading": true,
+  "bottomRow": 5,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontSize": "1.25rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "leftColumn": 1,
+  "parentColumnSpace": 76.5,
+  "parentId": "q0llclfmf7",
+  "parentRowSpace": 10,
+  "rightColumn": 63,
+  "text": "תיק מוצר חדש",
+  "textAlign": "RIGHT",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "l7jblcrxqp",
+  "widgetName": "txt_modal_title"
+}

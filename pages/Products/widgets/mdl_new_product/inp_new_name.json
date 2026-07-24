@@ -1,0 +1,20 @@
+{
+  "animateLoading": true,
+  "bottomRow": 13,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isLoading": false,
+  "label": "שם מוצר",
+  "labelPosition": "Top",
+  "leftColumn": 1,
+  "parentColumnSpace": 76.5,
+  "parentId": "q0llclfmf7",
+  "parentRowSpace": 10,
+  "rightColumn": 63,
+  "topRow": 6,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "vxwzbjhzjn",
+  "widgetName": "inp_new_name"
+}

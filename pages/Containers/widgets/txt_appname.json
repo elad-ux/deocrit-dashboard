@@ -1,0 +1,21 @@
+{
+  "animateLoading": true,
+  "bottomRow": 4,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.875rem",
+  "isLoading": false,
+  "leftColumn": 26,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 38,
+  "text": "Container Tracker",
+  "textAlign": "CENTER",
+  "textColor": "#F7F8FA",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "vn07eaz9vd",
+  "widgetName": "txt_appname"
+}

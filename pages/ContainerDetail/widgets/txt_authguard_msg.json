@@ -1,0 +1,27 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "{{!appsmith.store.sessionToken}}",
+  "leftColumn": 1,
+  "parentColumnSpace": 306,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 16,
+  "text": "אינך מחובר. יש להתחבר מחדש דרך מסך הכניסה.",
+  "textAlign": "CENTER",
+  "textColor": "#dc2626",
+  "topRow": 0,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "5be93wptk9",
+  "widgetName": "txt_authguard_msg"
+}

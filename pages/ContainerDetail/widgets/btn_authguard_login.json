@@ -1,0 +1,31 @@
+{
+  "animateLoading": true,
+  "bottomRow": 5,
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!appsmith.store.sessionToken}}",
+  "leftColumn": 6,
+  "onClick": "{{navigateTo('Page1','','SAME_WINDOW')}}",
+  "parentColumnSpace": 306,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 10,
+  "text": "למסך הכניסה",
+  "topRow": 3,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kv7gvc5xqn",
+  "widgetName": "btn_authguard_login"
+}

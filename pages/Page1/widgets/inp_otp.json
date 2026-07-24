@@ -1,0 +1,31 @@
+{
+  "animateLoading": true,
+  "bottomRow": 22,
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.loginStep === 'otp'}}",
+  "label": "",
+  "labelPosition": "Top",
+  "leftColumn": 24,
+  "maxChars": 6,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "קוד בן 6 ספרות",
+  "resetOnSubmit": false,
+  "rightColumn": 40,
+  "topRow": 18,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "3uf4p20lfg",
+  "widgetName": "inp_otp"
+}

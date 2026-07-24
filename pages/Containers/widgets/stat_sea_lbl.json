@@ -1,0 +1,21 @@
+{
+  "animateLoading": true,
+  "bottomRow": 12,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontSize": "0.875rem",
+  "isLoading": false,
+  "leftColumn": 22,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 34,
+  "text": "יצאו מנמל המוצא",
+  "textAlign": "RIGHT",
+  "textColor": "#6B7280",
+  "topRow": 10,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "udm62qzxwp",
+  "widgetName": "stat_sea_lbl"
+}

@@ -1,0 +1,1 @@
+{"session_token": "{{appsmith.store.sessionToken}}", "container_id": "{{appsmith.store.selectedContainerId}}", "updates": {"warehouse_arrival_date": "{{inp_cd_arrival.text}}", "warehouse_departure_date": "{{inp_cd_departure.text}}"}}

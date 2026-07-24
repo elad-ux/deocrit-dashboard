@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 54,
+  "onClick": "{{ storeValue(\"editId\", \"\"); resetWidget(\"inp_new_name\"); resetWidget(\"inp_new_sku\"); resetWidget(\"sel_new_category\"); showModal(\"mdl_new_product\"); }}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 62,
+  "text": "תיק חדש",
+  "topRow": 14,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "chavqm6qco",
+  "widgetName": "btn_p_new"
+}

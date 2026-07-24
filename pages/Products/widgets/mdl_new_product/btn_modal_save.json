@@ -1,0 +1,24 @@
+{
+  "animateLoading": true,
+  "bottomRow": 35,
+  "buttonColor": "#4CAF50",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isLoading": false,
+  "leftColumn": 33,
+  "onClick": "{{ CreateProduct.run().then(() => { closeModal(\"mdl_new_product\"); storeValue(\"editId\",\"\"); GetProducts.run(); showAlert(\"נשמר בהצלחה\",\"success\"); }).catch(() => showAlert(\"שגיאה בשמירה\",\"error\")); }}",
+  "parentColumnSpace": 76.5,
+  "parentId": "q0llclfmf7",
+  "parentRowSpace": 10,
+  "rightColumn": 63,
+  "text": "שמור",
+  "topRow": 31,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5xd0lr0p9p",
+  "widgetName": "btn_modal_save"
+}

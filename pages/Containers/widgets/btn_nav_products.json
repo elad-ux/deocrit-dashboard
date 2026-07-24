@@ -1,0 +1,32 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "buttonColor": "#B8863B",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.userRole === 'admin'}}",
+  "leftColumn": 38,
+  "onClick": "{{navigateTo('Products','','SAME_WINDOW')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 48,
+  "text": "תיק מוצר",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "mfgevezkhr",
+  "widgetName": "btn_nav_products"
+}

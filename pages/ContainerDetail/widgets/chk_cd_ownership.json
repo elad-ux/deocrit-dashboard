@@ -1,0 +1,30 @@
+{
+  "animateLoading": true,
+  "bottomRow": 10,
+  "defaultCheckedState": "{{!!(CDContainerDetail.data && CDContainerDetail.data.container && CDContainerDetail.data.container.ownership_confirmed_by)}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "label": "אישרתי שייכות המכולה",
+  "leftColumn": 1,
+  "onCheckChange": "{{CDConfirmOwnership.run().then(()=>CDContainerDetail.run())}}",
+  "parentColumnSpace": 306,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 6,
+  "topRow": 9,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "ymz9wjrbq9",
+  "widgetName": "chk_cd_ownership"
+}
