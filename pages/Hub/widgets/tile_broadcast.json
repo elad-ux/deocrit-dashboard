@@ -4,7 +4,7 @@
   "bottomRow": 32,
   "boxShadow": "none",
   "buttonColor": "#B8863B",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
     {
       "key": "isVisible"
@@ -26,7 +26,7 @@
   "parentRowSpace": 10,
   "recaptchaType": "V3",
   "rightColumn": 61,
-  "text": "📢\nתפוצות שיווקיות",
+  "text": "תפוצות שיווקיות",
   "topRow": 12,
   "type": "BUTTON_WIDGET",
   "version": 1,
