@@ -1,15 +1,10 @@
 {
   "animateLoading": true,
-  "borderRadius": "0.25rem",
-  "bottomRow": 32,
+  "borderRadius": "0px",
+  "bottomRow": 16,
   "boxShadow": "none",
-  "buttonColor": "#B8863B",
-  "buttonVariant": "TERTIARY",
-  "dynamicBindingPathList": [
-    {
-      "key": "isVisible"
-    }
-  ],
+  "buttonVariant": "SECONDARY",
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -17,8 +12,7 @@
   ],
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": "{{['warehouse','manager','admin'].includes(appsmith.store.userRole)}}",
-  "labelTextSize": "1.5rem",
+  "labelTextSize": "0.875rem",
   "leftColumn": 3,
   "onClick": "{{navigateTo('Containers','','SAME_WINDOW')}}",
   "parentColumnSpace": 76.5,
@@ -30,6 +24,6 @@
   "topRow": 12,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "tcnt1",
+  "widgetId": "clonebtn01",
   "widgetName": "tile_containers"
 }
