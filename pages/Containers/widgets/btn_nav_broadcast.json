@@ -1,0 +1,32 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "buttonColor": "#B8863B",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.userRole === 'admin' || appsmith.store.userRole === 'whatsapp'}}",
+  "leftColumn": 49,
+  "onClick": "{{navigateTo('BroadcastContacts','','SAME_WINDOW')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 56,
+  "text": "תפוצות שיווקיות",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "bcnav1",
+  "widgetName": "btn_nav_broadcast"
+}

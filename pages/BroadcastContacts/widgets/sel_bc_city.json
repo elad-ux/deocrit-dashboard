@@ -1,0 +1,28 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 12,
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "label": "עיר",
+  "leftColumn": 22,
+  "options": "{{GetBCDistinctValues.data.cities.map((c) => ({label: c, value: c}))}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "כל הערים",
+  "rightColumn": 38,
+  "topRow": 8,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "cty1",
+  "widgetName": "sel_bc_city"
+}

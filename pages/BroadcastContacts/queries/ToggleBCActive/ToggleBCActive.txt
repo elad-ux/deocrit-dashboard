@@ -1,0 +1,8 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "bulk_set_active",
+  "payload": {
+    "ids": ["{{appsmith.store.bcToggleId}}"],
+    "active": {{appsmith.store.bcToggleActive}}
+  }
+}

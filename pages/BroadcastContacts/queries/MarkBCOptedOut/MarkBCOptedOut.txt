@@ -1,0 +1,7 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "mark_opted_out",
+  "payload": {
+    "id": "{{appsmith.store.bcOptOutId}}"
+  }
+}

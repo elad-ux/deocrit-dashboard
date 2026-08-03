@@ -1,0 +1,9 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "list",
+  "payload": {
+    "cities": {{JSON.stringify(sel_bc_city.selectedOptionValues || [])}},
+    "categories": {{JSON.stringify(sel_bc_category.selectedOptionValues || [])}},
+    "search": "{{inp_bc_search.text}}"
+  }
+}

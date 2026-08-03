@@ -1,0 +1,31 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isLoading": false,
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "חיפוש עסק/איש קשר/טלפון",
+  "rightColumn": 20,
+  "topRow": 8,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "srch1",
+  "widgetName": "inp_bc_search"
+}

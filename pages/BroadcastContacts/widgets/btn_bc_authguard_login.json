@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!appsmith.store.sessionToken}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 24,
+  "onClick": "{{navigateTo('Page1','','SAME_WINDOW')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 40,
+  "text": "למסך הכניסה",
+  "topRow": 58,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "bcag2",
+  "widgetName": "btn_bc_authguard_login"
+}

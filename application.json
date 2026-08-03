@@ -33,6 +33,14 @@
       "isDefault": true
     },
     {
+      "id": "Hub",
+      "isDefault": false
+    },
+    {
+      "id": "BroadcastContacts",
+      "isDefault": false
+    },
+    {
       "id": "Containers",
       "isDefault": false
     },

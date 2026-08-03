@@ -20,7 +20,7 @@
   "isLoading": false,
   "isVisible": "{{appsmith.store.loginStep === 'otp'}}",
   "leftColumn": 24,
-  "onClick": "{{OtpVerify.run().then((r) => { storeValue('sessionToken', r.session_token); storeValue('userRole', r.role); storeValue('userName', r.name); storeValue('loginError',''); if (r.role === 'products') { navigateTo('Products','','SAME_WINDOW'); } else { navigateTo('Containers','','SAME_WINDOW'); } }).catch(() => storeValue('loginError','קוד שגוי או פג תוקף, נסה שוב'))}}",
+  "onClick": "{{OtpVerify.run().then((r) => { storeValue('sessionToken', r.session_token); storeValue('userRole', r.role); storeValue('userName', r.name); storeValue('loginError',''); navigateTo('Hub','','SAME_WINDOW'); }).catch(() => storeValue('loginError','קוד שגוי או פג תוקף, נסה שוב')) }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,

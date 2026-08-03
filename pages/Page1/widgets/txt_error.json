@@ -1,5 +1,6 @@
 {
   "animateLoading": true,
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "bottomRow": 31,
   "dynamicBindingPathList": [
     {
@@ -7,6 +8,9 @@
     },
     {
       "key": "isVisible"
+    },
+    {
+      "key": "borderColor"
     }
   ],
   "dynamicTriggerPathList": [],

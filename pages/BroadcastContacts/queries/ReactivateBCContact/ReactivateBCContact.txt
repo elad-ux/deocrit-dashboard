@@ -1,0 +1,7 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "reactivate",
+  "payload": {
+    "id": "{{appsmith.store.bcReactivateId}}"
+  }
+}
