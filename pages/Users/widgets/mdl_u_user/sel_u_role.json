@@ -5,10 +5,11 @@
   "defaultOptionValue": "",
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
-  "isFilterable": true,
+  "isFilterable": false,
   "isLoading": false,
   "isRequired": true,
   "label": "תפקיד",
+  "labelPosition": "Top",
   "leftColumn": 1,
   "options": [
     {

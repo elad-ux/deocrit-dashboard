@@ -23,6 +23,12 @@
     },
     {
       "key": "isLoading"
+    },
+    {
+      "key": "primaryColumns.status_text.computedValue"
+    },
+    {
+      "key": "primaryColumns.pause_action.buttonLabel"
     }
   ],
   "dynamicPropertyPathList": [],
