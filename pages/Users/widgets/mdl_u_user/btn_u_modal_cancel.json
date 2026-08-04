@@ -3,8 +3,13 @@
   "borderRadius": "0px",
   "bottomRow": 35,
   "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "SECONDARY",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -12,6 +17,7 @@
   ],
   "isDisabled": false,
   "isLoading": false,
+  "isVisible": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 1,
   "onClick": "{{ closeModal('mdl_u_user') }}",
