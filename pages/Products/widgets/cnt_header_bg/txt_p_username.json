@@ -3,7 +3,11 @@
   "borderRadius": "0px",
   "bottomRow": 4,
   "boxShadow": "none",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "System Default",
@@ -15,15 +19,15 @@
   "minDynamicHeight": 4,
   "overflow": "NONE",
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "0isneseopq-canvas",
   "parentRowSpace": 10,
-  "rightColumn": 30,
-  "text": "תפוצות שיווקיות - אנשי קשר",
-  "textAlign": "LEFT",
+  "rightColumn": 20,
+  "text": "{{appsmith.store.userName || ''}}",
+  "textAlign": "RIGHT",
   "textColor": "#F7F8FA",
   "topRow": 1,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ttl1",
-  "widgetName": "txt_bc_title"
+  "widgetId": "yp96mrkcsb",
+  "widgetName": "txt_p_username"
 }

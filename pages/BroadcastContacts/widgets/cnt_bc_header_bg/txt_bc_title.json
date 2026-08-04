@@ -15,15 +15,15 @@
   "minDynamicHeight": 4,
   "overflow": "NONE",
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "hdr1-canvas",
   "parentRowSpace": 10,
   "rightColumn": 30,
-  "text": "ניהול משתמשים",
+  "text": "תפוצות שיווקיות - אנשי קשר",
   "textAlign": "LEFT",
   "textColor": "#F7F8FA",
   "topRow": 1,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "utit1",
-  "widgetName": "txt_u_title"
+  "widgetId": "ttl1",
+  "widgetName": "txt_bc_title"
 }

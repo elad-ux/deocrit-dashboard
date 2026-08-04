@@ -3,7 +3,7 @@
   "borderRadius": "0px",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonVariant": "SECONDARY",
+  "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
     {
@@ -13,17 +13,17 @@
   "isDisabled": false,
   "isLoading": false,
   "labelTextSize": "0.875rem",
-  "leftColumn": 56,
-  "onClick": "{{ storeValue('sessionToken',''); storeValue('userPhone',''); navigateTo('Page1','','SAME_WINDOW') }}",
+  "leftColumn": 32,
+  "onClick": "{{navigateTo('Hub','','SAME_WINDOW')}}",
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "hdr1-canvas",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
-  "rightColumn": 62,
-  "text": "יציאה",
+  "rightColumn": 42,
+  "text": "🏠 תפריט",
   "topRow": 1,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "out1",
-  "widgetName": "btn_bc_logout"
+  "widgetId": "homebtn1",
+  "widgetName": "btn_home"
 }

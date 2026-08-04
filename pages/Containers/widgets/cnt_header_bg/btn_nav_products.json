@@ -19,7 +19,7 @@
   "leftColumn": 38,
   "onClick": "{{navigateTo('Products','','SAME_WINDOW')}}",
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "omqrfor5o6-canvas",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
   "rightColumn": 48,

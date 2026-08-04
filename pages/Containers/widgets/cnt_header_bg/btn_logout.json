@@ -14,7 +14,7 @@
   "leftColumn": 57,
   "onClick": "{{storeValue('sessionToken',''); storeValue('userRole',''); storeValue('userName',''); storeValue('loginStep','phone'); navigateTo('Page1')}}",
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "omqrfor5o6-canvas",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
   "rightColumn": 63,

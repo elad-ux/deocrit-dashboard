@@ -11,7 +11,7 @@
   "isLoading": false,
   "leftColumn": 1,
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "omqrfor5o6-canvas",
   "parentRowSpace": 10,
   "rightColumn": 14,
   "text": "{{'שלום ' + (appsmith.store.userName || '')}}",

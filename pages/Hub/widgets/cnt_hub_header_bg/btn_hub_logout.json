@@ -3,7 +3,6 @@
   "borderRadius": "0px",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "transparent",
   "buttonVariant": "SECONDARY",
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
@@ -15,9 +14,9 @@
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 56,
-  "onClick": "{{storeValue('sessionToken',''); storeValue('userRole',''); storeValue('userName',''); storeValue('loginStep','phone'); navigateTo('Page1','','SAME_WINDOW')}}",
+  "onClick": "{{ storeValue('sessionToken',''); storeValue('userRole',''); storeValue('userName',''); navigateTo('Page1','','SAME_WINDOW') }}",
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "hhdr1-canvas",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
   "rightColumn": 62,
@@ -25,6 +24,6 @@
   "topRow": 1,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "o4i8ro3c89",
-  "widgetName": "btn_p_logout"
+  "widgetId": "hout1",
+  "widgetName": "btn_hub_logout"
 }

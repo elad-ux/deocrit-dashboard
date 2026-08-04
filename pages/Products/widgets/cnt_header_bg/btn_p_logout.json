@@ -3,7 +3,8 @@
   "borderRadius": "0px",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonVariant": "TERTIARY",
+  "buttonColor": "transparent",
+  "buttonVariant": "SECONDARY",
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
     {
@@ -13,17 +14,17 @@
   "isDisabled": false,
   "isLoading": false,
   "labelTextSize": "0.875rem",
-  "leftColumn": 40,
-  "onClick": "{{navigateTo('Hub','','SAME_WINDOW')}}",
+  "leftColumn": 56,
+  "onClick": "{{storeValue('sessionToken',''); storeValue('userRole',''); storeValue('userName',''); storeValue('loginStep','phone'); navigateTo('Page1','','SAME_WINDOW')}}",
   "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentId": "0isneseopq-canvas",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
-  "rightColumn": 50,
-  "text": "🏠 תפריט",
+  "rightColumn": 62,
+  "text": "יציאה",
   "topRow": 1,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "homebtn1",
-  "widgetName": "btn_home"
+  "widgetId": "o4i8ro3c89",
+  "widgetName": "btn_p_logout"
 }
