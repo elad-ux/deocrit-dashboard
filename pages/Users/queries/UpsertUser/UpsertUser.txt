@@ -1,0 +1,7 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "upsert",
+  "target_phone": "{{inp_u_phone.text}}",
+  "name": "{{inp_u_name.text}}",
+  "role": "{{sel_u_role.selectedOptionValue}}"
+}
