@@ -330,7 +330,7 @@
     }
   },
   "rightColumn": 62,
-  "tableData": "{{[{name:'Test',phone:'123',role_label:'X',status_label:'Y',toggle_label:'Z'}]}}",
+  "tableData": "{{GetUsers.data.users.map((u) => ({ ...u, role_label: ({warehouse:'מחסן',manager:'מנהל',admin:'אדמין',products:'מוצרים',whatsapp:'וואטסאפ'})[u.role] || u.role, status_label: u.active ? 'פעיל' : 'מושהה', toggle_label: u.active ? 'השהה' : 'הפעל' }))}}",
   "topRow": 14,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
