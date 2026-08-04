@@ -2,16 +2,9 @@
   "animateLoading": true,
   "borderRadius": "0px",
   "bottomRow": 29,
-  "defaultOptionValue": "{{appsmith.store.uEditRole || ''}}",
-  "dynamicBindingPathList": [
-    {
-      "key": "defaultOptionValue"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
-  "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
   "label": "תפקיד",
   "labelPosition": "Top",
   "leftColumn": 1,
@@ -40,7 +33,6 @@
   "parentColumnSpace": 76.5,
   "parentId": "ucvs1",
   "parentRowSpace": 10,
-  "placeholderText": "בחר תפקיד",
   "rightColumn": 63,
   "topRow": 22,
   "type": "SELECT_WIDGET",
