@@ -1,5 +1,5 @@
 {
-  "backgroundColor": "#18181b",
+  "backgroundColor": "#1E2A3A",
   "borderRadius": "0px",
   "bottomRow": 5,
   "boxShadow": "none",
@@ -7,16 +7,14 @@
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "isLoading": false,
-  "isVisible": false,
   "leftColumn": 0,
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,
   "rightColumn": 64,
-  "shouldScrollContents": false,
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "hhdr1",
-  "widgetName": "cnt_hub_header_bg"
+  "widgetId": "uhdr1",
+  "widgetName": "cnt_u_header_bg"
 }

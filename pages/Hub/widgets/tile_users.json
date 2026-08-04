@@ -1,0 +1,35 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.25rem",
+  "bottomRow": 54,
+  "boxShadow": "none",
+  "buttonColor": "#B8863B",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{['manager','admin'].includes(appsmith.store.userRole)}}",
+  "labelTextSize": "1.5rem",
+  "leftColumn": 3,
+  "onClick": "{{navigateTo('Users','','SAME_WINDOW')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 61,
+  "text": "ניהול משתמשים",
+  "topRow": 34,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "tusr1",
+  "widgetName": "tile_users"
+}

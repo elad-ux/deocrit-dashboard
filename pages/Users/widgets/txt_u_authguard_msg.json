@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 58,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.875rem",
+  "isLoading": false,
+  "isVisible": "{{!appsmith.store.sessionToken}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 62,
+  "text": "אינך מחובר. יש להתחבר מחדש דרך מסך הכניסה.",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 55,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "uag1",
+  "widgetName": "txt_u_authguard_msg"
+}

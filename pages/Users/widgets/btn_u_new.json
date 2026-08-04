@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.userRole === 'admin'}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 54,
+  "onClick": "{{ storeValue('uEditPhone',''); resetWidget('inp_u_name'); resetWidget('inp_u_phone'); resetWidget('sel_u_role'); showModal('mdl_u_user') }}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 62,
+  "text": "+ משתמש",
+  "topRow": 8,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "unew1",
+  "widgetName": "btn_u_new"
+}

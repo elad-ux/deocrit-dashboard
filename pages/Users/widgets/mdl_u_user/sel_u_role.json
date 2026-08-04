@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 29,
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "label": "תפקיד",
+  "leftColumn": 1,
+  "options": [
+    {
+      "label": "מחסן",
+      "value": "warehouse"
+    },
+    {
+      "label": "מנהל",
+      "value": "manager"
+    },
+    {
+      "label": "אדמין",
+      "value": "admin"
+    },
+    {
+      "label": "מוצרים",
+      "value": "products"
+    },
+    {
+      "label": "וואטסאפ",
+      "value": "whatsapp"
+    }
+  ],
+  "parentColumnSpace": 76.5,
+  "parentId": "ucvs1",
+  "parentRowSpace": 10,
+  "placeholderText": "בחר תפקיד",
+  "rightColumn": 63,
+  "topRow": 22,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "umrl1",
+  "widgetName": "sel_u_role"
+}
