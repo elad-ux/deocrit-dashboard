@@ -2,8 +2,12 @@
   "animateLoading": true,
   "borderRadius": "0px",
   "bottomRow": 29,
-  "defaultOptionValue": "",
-  "dynamicBindingPathList": [],
+  "defaultOptionValue": "{{appsmith.store.uEditRole || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isFilterable": false,
   "isLoading": false,

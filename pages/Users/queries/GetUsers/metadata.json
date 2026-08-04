@@ -29,7 +29,7 @@
     },
     "name": "GetUsers",
     "pageId": "Users",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
