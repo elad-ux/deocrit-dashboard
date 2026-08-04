@@ -1,5 +1,5 @@
 {
-  "backgroundColor": "#18181b",
+  "backgroundColor": "#1E2A3A",
   "borderRadius": "0px",
   "bottomRow": 5,
   "boxShadow": "none",
@@ -31,7 +31,6 @@
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "isLoading": false,
-  "isVisible": false,
   "leftColumn": 0,
   "parentColumnSpace": 76.5,
   "parentId": "0",
