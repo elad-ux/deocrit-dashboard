@@ -17,7 +17,7 @@
   "fontFamily": "System Default",
   "fontSize": "0.875rem",
   "isLoading": false,
-  "isVisible": "{{chk_tpl_optout.isChecked}}",
+  "isVisible": "{{!!chk_tpl_optout.isChecked}}",
   "labelTextSize": "0.875rem",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,

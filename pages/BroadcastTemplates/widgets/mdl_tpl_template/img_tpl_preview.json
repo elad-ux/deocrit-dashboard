@@ -16,7 +16,7 @@
   "image": "{{inp_tpl_media.text}}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
-  "isVisible": "{{sel_tpl_header_type.selectedOptionValue === 'image' && inp_tpl_media.text}}",
+  "isVisible": "{{!!(sel_tpl_header_type.selectedOptionValue === 'image' && inp_tpl_media.text)}}",
   "leftColumn": 1,
   "maxZoomLevel": 1,
   "objectFit": "cover",
