@@ -1,0 +1,28 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 39,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "fileDataType": "Base64",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "label": "",
+  "leftColumn": 40,
+  "maxNumFiles": 1,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 51,
+  "topRow": 32,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "fpsendm1",
+  "widgetName": "fp_send_media"
+}

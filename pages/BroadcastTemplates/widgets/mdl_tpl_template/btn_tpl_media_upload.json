@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 52,
+  "onClick": "{{ UploadTplMedia.run(() => { storeValue('def_tplmedia1', UploadTplMedia.data.url); resetWidget('inp_tpl_media'); }) }}",
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 63,
+  "text": "⬆️ העלה",
+  "topRow": 30,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "tplmup1",
+  "widgetName": "btn_tpl_media_upload"
+}

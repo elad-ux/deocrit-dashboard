@@ -1,0 +1,6 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "file_base64": "{{fp_tpl_media.files[0].data.split(',').pop()}}",
+  "original_name": "{{fp_tpl_media.files[0].name}}",
+  "mime_type": "{{fp_tpl_media.files[0].type}}"
+}

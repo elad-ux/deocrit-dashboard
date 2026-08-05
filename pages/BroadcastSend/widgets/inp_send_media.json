@@ -4,9 +4,13 @@
   "borderRadius": "0px",
   "bottomRow": 39,
   "boxShadow": "none",
+  "defaultText": "{{appsmith.store.def_sendmedia1 || ''}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -22,7 +26,7 @@
   "parentId": "0",
   "parentRowSpace": 10,
   "placeholderText": "URL תמונה/מדיה לקמפיין הזה (אם התבנית דורשת)",
-  "rightColumn": 62,
+  "rightColumn": 38,
   "topRow": 32,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
