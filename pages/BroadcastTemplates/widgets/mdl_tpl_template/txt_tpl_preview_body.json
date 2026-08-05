@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#DCF8C6",
+  "borderRadius": "0.25rem",
+  "bottomRow": 132,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.875rem",
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "rightColumn": 45,
+  "text": "{{ inp_tpl_body.text || '(גוף ההודעה יופיע כאן)' }}",
+  "textAlign": "RIGHT",
+  "textColor": "#111B21",
+  "topRow": 118,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "tplpvbd1",
+  "widgetName": "txt_tpl_preview_body"
+}

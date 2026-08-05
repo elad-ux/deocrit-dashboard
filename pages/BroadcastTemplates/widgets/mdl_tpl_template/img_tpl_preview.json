@@ -1,0 +1,32 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.25rem",
+  "bottomRow": 117,
+  "boxShadow": "none",
+  "defaultImage": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "image"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "image": "{{inp_tpl_media.text}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": "{{sel_tpl_header_type.selectedOptionValue === 'image' && inp_tpl_media.text}}",
+  "leftColumn": 1,
+  "maxZoomLevel": 1,
+  "objectFit": "cover",
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "rightColumn": 45,
+  "topRow": 97,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "tplpvimg1",
+  "widgetName": "img_tpl_preview"
+}

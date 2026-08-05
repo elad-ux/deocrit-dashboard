@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 97,
+  "bottomRow": 162,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
   "dynamicBindingPathList": [],
@@ -21,7 +21,7 @@
   "recaptchaType": "V3",
   "rightColumn": 63,
   "text": "שמור",
-  "topRow": 93,
+  "topRow": 158,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "tplms1",
