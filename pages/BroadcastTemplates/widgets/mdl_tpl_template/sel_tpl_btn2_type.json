@@ -19,7 +19,7 @@
   ],
   "dynamicTriggerPathList": [],
   "isLoading": false,
-  "label": "סוג",
+  "label": "כפתור 2 - סוג",
   "labelPosition": "Top",
   "leftColumn": 1,
   "optionLabel": "{{sel_tpl_btn2_type.sourceData.map((item) => (item.label))}}",

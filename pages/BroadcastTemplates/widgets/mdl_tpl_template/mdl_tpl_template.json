@@ -7,7 +7,7 @@
     {
       "animateLoading": true,
       "bottomRow": 1650,
-      "bottomRowBeforeCollapse": 990,
+      "bottomRowBeforeCollapse": 1650,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": false,
