@@ -1,15 +1,15 @@
-{{ JSON.stringify({
-  session_token: appsmith.store.sessionToken,
-  action: "upsert",
-  payload: {
-    id: appsmith.store.tplEditId || "",
-    name: inp_tpl_name.text,
-    category: sel_tpl_category.selectedOptionValue,
-    language: "he",
-    header_type: sel_tpl_header_type.selectedOptionValue,
-    header_sample_media_url: inp_tpl_media.text,
-    body_text: inp_tpl_body.text,
-    has_optout_line: chk_tpl_optout.isChecked,
-    buttons: [{type: sel_tpl_btn1_type.selectedOptionValue, text: inp_tpl_btn1_text.text, value: inp_tpl_btn1_value.text},{type: sel_tpl_btn2_type.selectedOptionValue, text: inp_tpl_btn2_text.text, value: inp_tpl_btn2_value.text},{type: sel_tpl_btn3_type.selectedOptionValue, text: inp_tpl_btn3_text.text, value: inp_tpl_btn3_value.text}].filter(b => b.type)
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "upsert",
+  "payload": {
+    "id": "{{appsmith.store.tplEditId || ''}}",
+    "name": "{{inp_tpl_name.text}}",
+    "category": "{{sel_tpl_category.selectedOptionValue}}",
+    "language": "he",
+    "header_type": "{{sel_tpl_header_type.selectedOptionValue}}",
+    "header_sample_media_url": "{{inp_tpl_media.text}}",
+    "body_text": "{{inp_tpl_body.text}}",
+    "has_optout_line": {{!!chk_tpl_optout.isChecked}},
+    "buttons": {{JSON.stringify([{type: sel_tpl_btn1_type.selectedOptionValue, text: inp_tpl_btn1_text.text, value: inp_tpl_btn1_value.text},{type: sel_tpl_btn2_type.selectedOptionValue, text: inp_tpl_btn2_text.text, value: inp_tpl_btn2_value.text},{type: sel_tpl_btn3_type.selectedOptionValue, text: inp_tpl_btn3_text.text, value: inp_tpl_btn3_value.text}].filter((b) => (b.type)))}}
   }
-}) }}
+}

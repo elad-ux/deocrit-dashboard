@@ -29,7 +29,7 @@
     },
     "name": "GetTemplates",
     "pageId": "BroadcastTemplates",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
