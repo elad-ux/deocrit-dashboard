@@ -1,0 +1,35 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "defaultText": "{{appsmith.store.def_tplmedia1 || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isLoading": false,
+  "label": "מדיית דוגמה (אופציונלי)",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "placeholderText": "URL תמונת/מדיה לדוגמה (לתהליך אישור Meta)",
+  "rightColumn": 63,
+  "topRow": 30,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "tplmedia1",
+  "widgetName": "inp_tpl_media"
+}

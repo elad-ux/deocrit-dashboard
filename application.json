@@ -67,6 +67,10 @@
     {
       "id": "Users",
       "isDefault": false
+    },
+    {
+      "id": "BroadcastTemplates",
+      "isDefault": false
     }
   ],
   "staticUrlSettings": {

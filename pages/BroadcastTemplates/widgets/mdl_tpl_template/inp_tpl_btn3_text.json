@@ -1,0 +1,31 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 90,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isLoading": false,
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "placeholderText": "טקסט הכפתור",
+  "rightColumn": 41,
+  "topRow": 83,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "tplb3txt1",
+  "widgetName": "inp_tpl_btn3_text"
+}

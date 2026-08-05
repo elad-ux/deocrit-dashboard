@@ -1,0 +1,26 @@
+{
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 59,
+  "defaultCheckedState": "{{appsmith.store.tplEditOptout || false}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "label": "כלול שורת הסרה (\"השב 'הסר' להסרה\")",
+  "leftColumn": 1,
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "rightColumn": 63,
+  "topRow": 55,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "tploptout1",
+  "widgetName": "chk_tpl_optout"
+}

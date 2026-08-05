@@ -1,0 +1,7 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "delete",
+  "payload": {
+    "id": "{{appsmith.store.tplDeleteId}}"
+  }
+}

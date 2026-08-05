@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 97,
+  "boxShadow": "none",
+  "buttonVariant": "SECONDARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "onClick": "{{ closeModal('mdl_tpl_template') }}",
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 31,
+  "text": "ביטול",
+  "topRow": 93,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "tplmc1",
+  "widgetName": "btn_tpl_modal_cancel"
+}

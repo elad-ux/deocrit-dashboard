@@ -1,0 +1,37 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 29,
+  "defaultOptionValue": "{{appsmith.store.tplEditHeaderType || 'none'}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "label": "כותרת מדיה (header)",
+  "labelPosition": "Top",
+  "leftColumn": 1,
+  "optionLabel": "{{sel_tpl_header_type.sourceData.map((item) => (item.label))}}",
+  "optionValue": "{{sel_tpl_header_type.sourceData.map((item) => (item.value))}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "tplcvs1",
+  "parentRowSpace": 10,
+  "rightColumn": 63,
+  "sourceData": "{{[{label:'ללא',value:'none'},{label:'תמונה',value:'image'},{label:'וידאו',value:'video'},{label:'מסמך',value:'document'}]}}",
+  "topRow": 22,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "tplhdt1",
+  "widgetName": "sel_tpl_header_type"
+}
