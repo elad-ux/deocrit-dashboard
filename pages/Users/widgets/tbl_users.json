@@ -157,7 +157,7 @@
       "isVisible": true,
       "label": "עריכה",
       "notation": "standard",
-      "onClick": "{{ storeValue('uEditPhone', currentRow.phone); storeValue('uEditRole', currentRow.role); setValue('inp_u_name', currentRow.name); setValue('inp_u_phone', currentRow.phone); showModal('mdl_u_user') }}",
+      "onClick": "{{ storeValue('uEditPhone', currentRow.phone); storeValue('uEditRole', currentRow.role); storeValue('uEditName', currentRow.name); showModal('mdl_u_user') }}",
       "originalId": "edit_action",
       "sticky": "",
       "textColor": "",

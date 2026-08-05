@@ -19,7 +19,7 @@
   "isVisible": "{{appsmith.store.userRole === 'admin'}}",
   "labelTextSize": "0.875rem",
   "leftColumn": 54,
-  "onClick": "{{ storeValue('uEditPhone',''); storeValue('uEditRole',''); resetWidget('inp_u_name'); resetWidget('inp_u_phone'); showModal('mdl_u_user') }}",
+  "onClick": "{{ storeValue('uEditPhone',''); storeValue('uEditRole',''); storeValue('uEditName',''); showModal('mdl_u_user') }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,
