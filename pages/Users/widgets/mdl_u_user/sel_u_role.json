@@ -2,12 +2,39 @@
   "animateLoading": true,
   "borderRadius": "0px",
   "bottomRow": 29,
-  "dynamicBindingPathList": [],
+  "defaultOptionValue": "{{appsmith.store.uEditRole || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isLoading": false,
   "label": "תפקיד",
   "labelPosition": "Top",
   "leftColumn": 1,
+  "optionLabel": "{{sel_u_role.sourceData.map((item) => (item.label))}}",
+  "optionValue": "{{sel_u_role.sourceData.map((item) => (item.value))}}",
   "options": [
     {
       "label": "מחסן",
@@ -34,6 +61,7 @@
   "parentId": "ucvs1",
   "parentRowSpace": 10,
   "rightColumn": 63,
+  "sourceData": "{{[{label:'מחסן',value:'warehouse'},{label:'מנהל',value:'manager'},{label:'אדמין',value:'admin'},{label:'מוצרים',value:'products'},{label:'וואטסאפ',value:'whatsapp'}]}}",
   "topRow": 22,
   "type": "SELECT_WIDGET",
   "version": 1,
