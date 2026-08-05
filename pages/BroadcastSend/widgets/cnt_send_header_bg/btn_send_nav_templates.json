@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 35,
+  "onClick": "{{navigateTo('BroadcastTemplates','','SAME_WINDOW')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "sendhdr1-canvas",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 45,
+  "text": "📝 תבניות",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "sendnt1",
+  "widgetName": "btn_send_nav_templates"
+}

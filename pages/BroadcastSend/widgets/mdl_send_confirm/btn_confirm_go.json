@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 33,
+  "onClick": "{{ CreateBatch.run(() => { closeModal('mdl_send_confirm'); ListSendBatches.run(); }) }}",
+  "parentColumnSpace": 76.5,
+  "parentId": "sendcvs1",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 63,
+  "text": "כן, שלח",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "cfmgo1",
+  "widgetName": "btn_confirm_go"
+}

@@ -71,6 +71,14 @@
     {
       "id": "BroadcastTemplates",
       "isDefault": false
+    },
+    {
+      "id": "BroadcastSend",
+      "isDefault": false
+    },
+    {
+      "id": "BroadcastMessageStatus",
+      "isDefault": false
     }
   ],
   "staticUrlSettings": {

@@ -1,0 +1,31 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 39,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isLoading": false,
+  "label": "מדיית קמפיין (אופציונלי)",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "URL תמונה/מדיה לקמפיין הזה (אם התבנית דורשת)",
+  "rightColumn": 62,
+  "topRow": 32,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "sendmedia1",
+  "widgetName": "inp_send_media"
+}

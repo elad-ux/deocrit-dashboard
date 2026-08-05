@@ -1,0 +1,33 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1rem",
+  "isLoading": false,
+  "labelTextSize": "1rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 76.5,
+  "parentId": "sendcvs1",
+  "parentRowSpace": 10,
+  "rightColumn": 63,
+  "text": "{{ 'האם אתה בטוח? ההודעה תישלח ל-' + (CountTarget.data ? CountTarget.data.target_count : '?') + ' אנשי קשר' + (sel_send_mode.selectedOptionValue === 'scheduled' ? (' בתאריך ' + inp_send_schedule.text) : ' כעת') + '.' }}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 6,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "cfmbody1",
+  "widgetName": "txt_confirm_body"
+}

@@ -1,0 +1,8 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "count_target",
+  "payload": {
+    "filter_cities": {{sel_send_city.selectedOptionValue ? JSON.stringify([sel_send_city.selectedOptionValue]) : '[]'}},
+    "filter_categories": {{sel_send_category.selectedOptionValue ? JSON.stringify([sel_send_category.selectedOptionValue]) : '[]'}}
+  }
+}

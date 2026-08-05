@@ -1,0 +1,11 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "create_batch",
+  "payload": {
+    "template_id": "{{sel_send_template.selectedOptionValue}}",
+    "campaign_media_url": "{{inp_send_media.text}}",
+    "filter_cities": {{sel_send_city.selectedOptionValue ? JSON.stringify([sel_send_city.selectedOptionValue]) : '[]'}},
+    "filter_categories": {{sel_send_category.selectedOptionValue ? JSON.stringify([sel_send_category.selectedOptionValue]) : '[]'}},
+    "scheduled_for": "{{sel_send_mode.selectedOptionValue === 'scheduled' ? inp_send_schedule.text : ''}}"
+  }
+}

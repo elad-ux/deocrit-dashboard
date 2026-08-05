@@ -1,0 +1,29 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 56,
+  "onClick": "{{navigateTo('BroadcastSend','','SAME_WINDOW')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "hdr1-canvas",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 63,
+  "text": "🚀 שליחה",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "bcsend1",
+  "widgetName": "btn_bc_send"
+}

@@ -1,0 +1,5 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "distinct_values",
+  "payload": {}
+}
