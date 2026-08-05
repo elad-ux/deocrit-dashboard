@@ -5,7 +5,7 @@
   "pluginType": "API",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "{\n  \"session_token\": \"{{appsmith.store.sessionToken}}\",\n  \"action\": \"create_batch\",\n  \"payload\": {\n    \"template_id\": \"{{sel_send_template.selectedOptionValue}}\",\n    \"campaign_media_url\": \"{{inp_send_media.text}}\",\n    \"filter_cities\": {{sel_send_city.selectedOptionValue ? JSON.stringify([sel_send_city.selectedOptionValue]) : '[]'}},\n    \"filter_categories\": {{sel_send_category.selectedOptionValue ? JSON.stringify([sel_send_category.selectedOptionValue]) : '[]'}},\n    \"scheduled_for\": \"{{sel_send_mode.selectedOptionValue === 'scheduled' ? inp_send_schedule.text : ''}}\"\n  }\n}",
+      "body": "{\n  \"session_token\": \"{{appsmith.store.sessionToken}}\",\n  \"action\": \"create_batch\",\n  \"payload\": {\n    \"template_id\": \"{{sel_send_template.selectedOptionValue}}\",\n    \"campaign_media_url\": \"{{inp_send_media.text}}\",\n    \"filter_cities\": {{sel_send_city.selectedOptionValue ? JSON.stringify([sel_send_city.selectedOptionValue]) : '[]'}},\n    \"filter_categories\": {{sel_send_category.selectedOptionValue ? JSON.stringify([sel_send_category.selectedOptionValue]) : '[]'}},\n    \"scheduled_for\": \"{{sel_send_mode.selectedOptionValue === 'scheduled' ? dpk_send_schedule.formattedDate : ''}}\"\n  }\n}",
       "encodeParamsToggle": true,
       "headers": [
         {

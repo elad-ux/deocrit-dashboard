@@ -6,6 +6,6 @@
     "campaign_media_url": "{{inp_send_media.text}}",
     "filter_cities": {{sel_send_city.selectedOptionValue ? JSON.stringify([sel_send_city.selectedOptionValue]) : '[]'}},
     "filter_categories": {{sel_send_category.selectedOptionValue ? JSON.stringify([sel_send_category.selectedOptionValue]) : '[]'}},
-    "scheduled_for": "{{sel_send_mode.selectedOptionValue === 'scheduled' ? inp_send_schedule.text : ''}}"
+    "scheduled_for": "{{sel_send_mode.selectedOptionValue === 'scheduled' ? dpk_send_schedule.formattedDate : ''}}"
   }
 }

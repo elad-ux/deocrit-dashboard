@@ -22,7 +22,7 @@
   "parentId": "sendcvs1",
   "parentRowSpace": 10,
   "rightColumn": 63,
-  "text": "{{ 'האם אתה בטוח? ההודעה תישלח ל-' + (CountTarget.data ? CountTarget.data.target_count : '?') + ' אנשי קשר' + (sel_send_mode.selectedOptionValue === 'scheduled' ? (' בתאריך ' + inp_send_schedule.text) : ' כעת') + '.' }}",
+  "text": "{{ 'האם אתה בטוח? ההודעה תישלח ל-' + (CountTarget.data ? CountTarget.data.target_count : '?') + ' אנשי קשר' + (sel_send_mode.selectedOptionValue === 'scheduled' ? (' בתאריך ' + dpk_send_schedule.formattedDate) : ' כעת') + '.' }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 6,
