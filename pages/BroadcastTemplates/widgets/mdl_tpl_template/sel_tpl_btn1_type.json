@@ -28,7 +28,7 @@
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
   "rightColumn": 20,
-  "sourceData": "{{[{label:'ללא',value:''},{label:'תשובה מובנית',value:'quick_reply'},{label:'לינק',value:'url'},{label:'חיוג',value:'phone'}]}}",
+  "sourceData": "{{[{label:'ללא',value:''},{label:'תשובה מובנית',value:'quick_reply'},{label:'לינק (עד 2)',value:'url'},{label:'חיוג (עד 1)',value:'phone'},{label:'העתקת קוד מבצע (יחיד בלבד!)',value:'copy_code'}]}}",
   "topRow": 82,
   "type": "SELECT_WIDGET",
   "version": 1,
