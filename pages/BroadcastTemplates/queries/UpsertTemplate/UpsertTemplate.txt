@@ -8,8 +8,16 @@
     "language": "he",
     "header_type": "{{sel_tpl_header_type.selectedOptionValue}}",
     "header_sample_media_url": "{{inp_tpl_media.text}}",
+    "header_text": "{{inp_tpl_header_text.text}}",
+    "footer_text": "{{inp_tpl_footer.text}}",
     "body_text": "{{inp_tpl_body.text}}",
     "has_optout_line": {{!!chk_tpl_optout.isChecked}},
-    "buttons": {{JSON.stringify([{type: sel_tpl_btn1_type.selectedOptionValue, text: inp_tpl_btn1_text.text, value: inp_tpl_btn1_value.text},{type: sel_tpl_btn2_type.selectedOptionValue, text: inp_tpl_btn2_text.text, value: inp_tpl_btn2_value.text},{type: sel_tpl_btn3_type.selectedOptionValue, text: inp_tpl_btn3_text.text, value: inp_tpl_btn3_value.text}].filter((b) => (b.type)))}}
+    "buttons": {{JSON.stringify([
+      {type: sel_tpl_btn1_type.selectedOptionValue, text: inp_tpl_btn1_text.text, value: inp_tpl_btn1_value.text},
+      {type: sel_tpl_btn2_type.selectedOptionValue, text: inp_tpl_btn2_text.text, value: inp_tpl_btn2_value.text},
+      {type: sel_tpl_btn3_type.selectedOptionValue, text: inp_tpl_btn3_text.text, value: inp_tpl_btn3_value.text},
+      {type: sel_tpl_btn4_type.selectedOptionValue, text: inp_tpl_btn4_text.text, value: inp_tpl_btn4_value.text},
+      {type: sel_tpl_btn5_type.selectedOptionValue, text: inp_tpl_btn5_text.text, value: inp_tpl_btn5_value.text}
+    ].filter((b) => (b.type)))}}
   }
 }

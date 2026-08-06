@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0.25rem",
-  "bottomRow": 117,
+  "bottomRow": 159,
   "boxShadow": "none",
   "defaultImage": "",
   "dynamicBindingPathList": [
@@ -24,7 +24,7 @@
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
   "rightColumn": 45,
-  "topRow": 97,
+  "topRow": 139,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "tplpvimg1",

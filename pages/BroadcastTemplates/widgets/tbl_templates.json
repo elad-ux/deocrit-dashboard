@@ -274,7 +274,7 @@
       "isVisible": true,
       "label": "עריכה",
       "notation": "standard",
-      "onClick": "{{ storeValue('tplEditId', currentRow.id); storeValue('def_tplname1', currentRow.name); storeValue('def_tplbody1', currentRow.body_text); storeValue('def_tplmedia1', currentRow.header_sample_media_url); storeValue('tplEditCategory', currentRow.category); storeValue('tplEditHeaderType', currentRow.header_type); storeValue('tplEditOptout', currentRow.has_optout_line); showModal('mdl_tpl_template') }}",
+      "onClick": "{{ storeValue('tplEditId', currentRow.id); storeValue('def_tplname1', currentRow.name); storeValue('def_tplbody1', currentRow.body_text); storeValue('def_tplmedia1', currentRow.header_sample_media_url); storeValue('def_tplheadertext1', currentRow.header_text); storeValue('def_tplfooter1', currentRow.footer_text); storeValue('tplEditCategory', currentRow.category); storeValue('tplEditHeaderType', currentRow.header_type); storeValue('tplEditOptout', currentRow.has_optout_line); showModal('mdl_tpl_template') }}",
       "originalId": "edit_action",
       "sticky": "",
       "textColor": "",

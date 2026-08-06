@@ -2,23 +2,20 @@
   "animateLoading": true,
   "backgroundColor": "#DCF8C6",
   "borderRadius": "0.25rem",
-  "bottomRow": 136,
+  "bottomRow": 183,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
       "key": "text"
-    },
-    {
-      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "System Default",
-  "fontSize": "0.875rem",
+  "fontSize": "0.7rem",
   "isLoading": false,
   "isVisible": "{{!!chk_tpl_optout.isChecked}}",
-  "labelTextSize": "0.875rem",
+  "labelTextSize": "0.7rem",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -29,8 +26,8 @@
   "rightColumn": 45,
   "text": "{{'השב \\'הסר\\' להסרה'}}",
   "textAlign": "RIGHT",
-  "textColor": "#6B7280",
-  "topRow": 133,
+  "textColor": "#8696A0",
+  "topRow": 180,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "tplpvoo1",

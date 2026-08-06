@@ -2,30 +2,34 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 89,
+  "bottomRow": 37,
   "boxShadow": "none",
+  "defaultText": "{{appsmith.store.def_tplheadertext1 || ''}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "inputType": "TEXT",
   "isLoading": false,
-  "label": "",
+  "label": "טקסט כותרת",
   "labelTextSize": "0.875rem",
-  "leftColumn": 43,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "parentColumnSpace": 76.5,
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
-  "placeholderText": "ערך (URL/טלפון)",
+  "placeholderText": "טקסט כותרת קצר (עד 60 תווים, רק אם סוג הכותרת = טקסט)",
   "rightColumn": 63,
-  "topRow": 82,
+  "topRow": 30,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "tplb1val2",
-  "widgetName": "inp_tpl_btn1_value"
+  "widgetId": "tplhtxt1",
+  "widgetName": "inp_tpl_header_text"
 }

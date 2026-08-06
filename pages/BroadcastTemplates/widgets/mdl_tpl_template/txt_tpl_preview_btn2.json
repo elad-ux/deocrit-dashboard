@@ -1,7 +1,9 @@
 {
   "animateLoading": true,
-  "borderRadius": "0.25rem",
-  "bottomRow": 146,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E9EDEF",
+  "borderRadius": "1.25rem",
+  "bottomRow": 194,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -25,13 +27,13 @@
   "parentColumnSpace": 76.5,
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
-  "rightColumn": 45,
-  "text": "{{sel_tpl_btn2_type.selectedOptionValue ? '🔘 ' + (inp_tpl_btn2_text.text || inp_tpl_btn2_value.text || 'כפתור') : ''}}",
+  "rightColumn": 30,
+  "text": "{{sel_tpl_btn2_type.selectedOptionValue ? '🔘 ' + (inp_tpl_btn2_text.text || 'כפתור') : ''}}",
   "textAlign": "CENTER",
   "textColor": "#00A5F4",
-  "topRow": 142,
+  "topRow": 190,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "tplpvb21",
+  "widgetId": "tplpvb22",
   "widgetName": "txt_tpl_preview_btn2"
 }

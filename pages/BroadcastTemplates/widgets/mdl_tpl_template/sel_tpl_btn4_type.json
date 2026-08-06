@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 98,
+  "bottomRow": 116,
   "defaultOptionValue": "{{''}}",
   "dynamicBindingPathList": [
     {
@@ -19,19 +19,19 @@
   ],
   "dynamicTriggerPathList": [],
   "isLoading": false,
-  "label": "כפתור 2 - סוג",
+  "label": "כפתור 4 - סוג",
   "labelPosition": "Top",
   "leftColumn": 1,
-  "optionLabel": "{{sel_tpl_btn2_type.sourceData.map((item) => (item.label))}}",
-  "optionValue": "{{sel_tpl_btn2_type.sourceData.map((item) => (item.value))}}",
+  "optionLabel": "{{sel_tpl_btn4_type.sourceData.map((item) => (item.label))}}",
+  "optionValue": "{{sel_tpl_btn4_type.sourceData.map((item) => (item.value))}}",
   "parentColumnSpace": 76.5,
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
   "rightColumn": 20,
   "sourceData": "{{[{label:'ללא',value:''},{label:'תשובה מובנית',value:'quick_reply'},{label:'לינק',value:'url'},{label:'חיוג',value:'phone'}]}}",
-  "topRow": 91,
+  "topRow": 109,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "tplb2t2",
-  "widgetName": "sel_tpl_btn2_type"
+  "widgetId": "tplb4t2",
+  "widgetName": "sel_tpl_btn4_type"
 }

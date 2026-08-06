@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "#DCF8C6",
   "borderRadius": "0.25rem",
-  "bottomRow": 174,
+  "bottomRow": 179,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -12,9 +12,10 @@
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "System Default",
-  "fontSize": "0.875rem",
+  "fontSize": "0.75rem",
   "isLoading": false,
-  "labelTextSize": "0.875rem",
+  "isVisible": "{{!!inp_tpl_footer.text}}",
+  "labelTextSize": "0.75rem",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -23,12 +24,12 @@
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
   "rightColumn": 45,
-  "text": "{{ inp_tpl_body.text || '(גוף ההודעה יופיע כאן)' }}",
+  "text": "{{inp_tpl_footer.text}}",
   "textAlign": "RIGHT",
-  "textColor": "#111B21",
-  "topRow": 160,
+  "textColor": "#8696A0",
+  "topRow": 175,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "tplpvbd1",
-  "widgetName": "txt_tpl_preview_body"
+  "widgetId": "tplpvft1",
+  "widgetName": "txt_tpl_preview_footer"
 }

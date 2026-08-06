@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 89,
+  "bottomRow": 125,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -23,9 +23,9 @@
   "parentRowSpace": 10,
   "placeholderText": "ערך (URL/טלפון)",
   "rightColumn": 63,
-  "topRow": 82,
+  "topRow": 118,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "tplb1val2",
-  "widgetName": "inp_tpl_btn1_value"
+  "widgetId": "tplb5val2",
+  "widgetName": "inp_tpl_btn5_value"
 }

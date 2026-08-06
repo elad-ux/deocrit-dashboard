@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 72,
+  "bottomRow": 89,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -23,9 +23,9 @@
   "parentRowSpace": 10,
   "placeholderText": "טקסט הכפתור",
   "rightColumn": 41,
-  "topRow": 65,
+  "topRow": 82,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "tplb1txt1",
+  "widgetId": "tplb1txt2",
   "widgetName": "inp_tpl_btn1_text"
 }

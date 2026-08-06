@@ -14,7 +14,7 @@
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 52,
-  "onClick": "{{ storeValue('tplEditId',''); storeValue('def_tplname1',''); storeValue('def_tplbody1',''); storeValue('def_tplmedia1',''); storeValue('tplEditCategory','marketing'); storeValue('tplEditHeaderType','none'); storeValue('tplEditOptout', false); showModal('mdl_tpl_template') }}",
+  "onClick": "{{ storeValue('tplEditId',''); storeValue('def_tplname1',''); storeValue('def_tplbody1',''); storeValue('def_tplmedia1',''); storeValue('def_tplheadertext1',''); storeValue('def_tplfooter1',''); storeValue('tplEditCategory','marketing'); storeValue('tplEditHeaderType','none'); storeValue('tplEditOptout', false); showModal('mdl_tpl_template') }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,

@@ -1,12 +1,16 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#DCF8C6",
-  "borderRadius": "0.25rem",
-  "bottomRow": 174,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E9EDEF",
+  "borderRadius": "1.25rem",
+  "bottomRow": 204,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
       "key": "text"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -14,6 +18,7 @@
   "fontFamily": "System Default",
   "fontSize": "0.875rem",
   "isLoading": false,
+  "isVisible": "{{!!sel_tpl_btn4_type.selectedOptionValue}}",
   "labelTextSize": "0.875rem",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
@@ -22,13 +27,13 @@
   "parentColumnSpace": 76.5,
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
-  "rightColumn": 45,
-  "text": "{{ inp_tpl_body.text || '(גוף ההודעה יופיע כאן)' }}",
-  "textAlign": "RIGHT",
-  "textColor": "#111B21",
-  "topRow": 160,
+  "rightColumn": 30,
+  "text": "{{sel_tpl_btn4_type.selectedOptionValue ? '🔘 ' + (inp_tpl_btn4_text.text || 'כפתור') : ''}}",
+  "textAlign": "CENTER",
+  "textColor": "#00A5F4",
+  "topRow": 200,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "tplpvbd1",
-  "widgetName": "txt_tpl_preview_body"
+  "widgetId": "tplpvb42",
+  "widgetName": "txt_tpl_preview_btn4"
 }
