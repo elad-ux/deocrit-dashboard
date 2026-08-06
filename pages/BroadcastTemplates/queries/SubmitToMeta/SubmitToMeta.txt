@@ -1,0 +1,7 @@
+{
+  "session_token": "{{appsmith.store.sessionToken}}",
+  "action": "submit_to_meta",
+  "payload": {
+    "id": "{{appsmith.store.tplSubmitId}}"
+  }
+}
