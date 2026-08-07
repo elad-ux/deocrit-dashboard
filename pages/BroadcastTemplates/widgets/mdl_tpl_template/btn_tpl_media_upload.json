@@ -24,7 +24,7 @@
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 52,
-  "onClick": "{{ UploadTplMedia.run(() => { storeValue('def_tplmedia1', UploadTplMedia.data.url); resetWidget('inp_tpl_media'); }) }}",
+  "onClick": "{{ UploadTplMedia.run((res) => { if (res.success) { storeValue('def_tplmedia1', res.url); resetWidget('inp_tpl_media'); showAlert('הקובץ הועלה בהצלחה', 'success'); } else { showAlert(res.error || 'שגיאה בהעלאת הקובץ', 'error'); } }, (err) => showAlert('שגיאת רשת בהעלאה: ' + err.message, 'error')) }}",
   "parentColumnSpace": 76.5,
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
