@@ -29,7 +29,7 @@
     },
     "name": "UploadSendMedia",
     "pageId": "BroadcastSend",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

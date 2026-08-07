@@ -21,7 +21,7 @@
   "parentColumnSpace": 76.5,
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
-  "placeholderText": "ערך (URL / טלפון / קוד מבצע עד 15 תווים)",
+  "placeholderText": "ערך (URL / טלפון)",
   "rightColumn": 63,
   "topRow": 109,
   "type": "INPUT_WIDGET_V2",
