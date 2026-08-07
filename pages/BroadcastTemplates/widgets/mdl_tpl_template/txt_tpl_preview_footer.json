@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "backgroundColor": "#DCF8C6",
-  "borderRadius": "0.25rem",
+  "borderRadius": "0px",
   "bottomRow": 179,
   "boxShadow": "none",
   "dynamicBindingPathList": [
