@@ -1,9 +1,8 @@
 {
   "animateLoading": true,
-  "borderRadius": "0.25rem",
-  "bottomRow": 32,
+  "borderRadius": "1.5rem",
+  "bottomRow": 60,
   "boxShadow": "none",
-  "buttonColor": "#B8863B",
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
     {
@@ -18,18 +17,18 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": "{{['warehouse','manager','admin'].includes(appsmith.store.userRole)}}",
-  "labelTextSize": "1.5rem",
-  "leftColumn": 3,
-  "onClick": "{{navigateTo('Containers','','SAME_WINDOW')}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "onClick": "{{ navigateTo('Containers','','SAME_WINDOW') }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
-  "rightColumn": 21,
-  "text": "מעקב מכולות",
-  "topRow": 12,
+  "rightColumn": 31,
+  "text": "",
+  "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "tcnt2a",
-  "widgetName": "tile_containers"
+  "widgetId": "gowf4hvyr",
+  "widgetName": "Go4kkrqqs"
 }

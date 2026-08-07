@@ -1,9 +1,8 @@
 {
   "animateLoading": true,
-  "borderRadius": "0.25rem",
-  "bottomRow": 54,
+  "borderRadius": "1.5rem",
+  "bottomRow": 60,
   "boxShadow": "none",
-  "buttonColor": "#B8863B",
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
     {
@@ -17,19 +16,19 @@
   ],
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": "{{['manager','admin'].includes(appsmith.store.userRole)}}",
-  "labelTextSize": "1.5rem",
-  "leftColumn": 3,
-  "onClick": "{{navigateTo('Users','','SAME_WINDOW')}}",
+  "isVisible": "{{['products','admin'].includes(appsmith.store.userRole)}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 33,
+  "onClick": "{{ navigateTo('Products','','SAME_WINDOW') }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
-  "rightColumn": 61,
-  "text": "ניהול משתמשים",
-  "topRow": 34,
+  "rightColumn": 62,
+  "text": "",
+  "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "tusr1",
-  "widgetName": "tile_users"
+  "widgetId": "go88305gb",
+  "widgetName": "Go4yc7v5q"
 }
