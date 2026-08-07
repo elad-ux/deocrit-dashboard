@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1rem",
+  "isLoading": false,
+  "isVisible": "{{!appsmith.store.sessionToken}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 48,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 40,
+  "rightColumn": 208,
+  "text": "אינך מחובר. יש להתחבר מחדש דרך מסך הכניסה.",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 56,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "hubrdauth1",
+  "widgetName": "txt_hubrd_authguard"
+}

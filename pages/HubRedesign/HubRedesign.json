@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "6a418a826d3fda31091c7857_5c6188c1-2016-499f-9b87-29c91caeaa54",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "#F7F8FA",
+          "bottomRow": 630,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 256,
+          "snapColumns": 64,
+          "snapRows": 65,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 94,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "HubRedesign",
+    "slug": "hubredesign"
+  }
+}

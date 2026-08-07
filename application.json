@@ -79,6 +79,10 @@
     {
       "id": "BroadcastMessageStatus",
       "isDefault": false
+    },
+    {
+      "id": "HubRedesign",
+      "isDefault": false
     }
   ],
   "staticUrlSettings": {

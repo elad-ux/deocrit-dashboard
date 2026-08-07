@@ -1,0 +1,33 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 6.52,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.5rem",
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 76.5,
+  "parentId": "hrdhdrcv1",
+  "parentRowSpace": 40,
+  "rightColumn": 160,
+  "text": "{{'שלום, ' + (appsmith.store.userName || 'משתמש') + ' 👋'}}",
+  "textAlign": "RIGHT",
+  "textColor": "#231F20",
+  "topRow": 3,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "hrdg1",
+  "widgetName": "txt_hrd_greeting"
+}

@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 63,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!appsmith.store.sessionToken}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 96,
+  "onClick": "{{navigateTo('Page1','','SAME_WINDOW')}}",
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 40,
+  "recaptchaType": "V3",
+  "rightColumn": 160,
+  "text": "למסך הכניסה",
+  "topRow": 59.52,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "hubrdauthbtn1",
+  "widgetName": "btn_hubrd_authguard_login"
+}

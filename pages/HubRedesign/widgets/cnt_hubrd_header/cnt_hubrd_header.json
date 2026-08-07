@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#1E2A3A",
+  "borderRadius": "0pxpx",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 130,
+      "boxShadow": "none",
+      "dynamicBindingPathList": [],
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "parentColumnSpace": 1,
+      "parentId": "hrdhdrbg1",
+      "parentRowSpace": 40,
+      "rightColumn": 19584,
+      "snapColumns": 64,
+      "snapRows": 3.25,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "hrdhdrcv1",
+      "widgetName": "hrdhdrcv1"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 40,
+  "rightColumn": 256,
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "hrdhdrbg1",
+  "widgetName": "cnt_hubrd_header"
+}
