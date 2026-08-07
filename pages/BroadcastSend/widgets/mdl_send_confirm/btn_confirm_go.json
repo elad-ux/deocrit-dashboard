@@ -14,7 +14,7 @@
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 33,
-  "onClick": "{{ CreateBatch.run(() => { closeModal('mdl_send_confirm'); ListSendBatches.run(); }) }}",
+  "onClick": "{{ CreateBatch.run((res) => { if (res.success) { closeModal('mdl_send_confirm'); showAlert((res.queued||0) + ' הודעות נכנסו לתור', 'success'); ListSendBatches.run(); } else { showAlert(res.error || 'שגיאה ביצירת קמפיין', 'error'); } }, (err) => { showAlert('שגיאת רשת: ' + err.message, 'error'); }) }}",
   "parentColumnSpace": 76.5,
   "parentId": "sendcvs1",
   "parentRowSpace": 10,
