@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 100,
+  "bottomRow": 107,
   "boxShadow": "none",
   "canFreezeColumn": false,
   "columnOrder": [
@@ -434,7 +434,7 @@
   },
   "rightColumn": 62,
   "tableData": "{{ListSendBatches.data.batches}}",
-  "topRow": 59,
+  "topRow": 66,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "widgetId": "sendtbl1",
