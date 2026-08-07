@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderRadius": "0.25rem",
+  "bottomRow": 27,
+  "boxShadow": "sm",
+  "children": [
+    {
+      "bottomRow": 100,
+      "leftColumn": 0,
+      "parentColumnSpace": 1,
+      "parentId": "card_total1",
+      "parentRowSpace": 1,
+      "rightColumn": 650.25,
+      "snapColumns": 8.5,
+      "snapRows": 10,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "widgetId": "card_total1-canvas"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "leftColumn": 1,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 9.5,
+  "topRow": 17,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetName": "card_total"
+}

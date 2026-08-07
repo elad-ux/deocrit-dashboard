@@ -5,22 +5,16 @@
     "layouts": [
       {
         "dsl": {
-          "backgroundColor": "none",
-          "bottomRow": 800,
-          "canExtend": true,
-          "containerStyle": "none",
-          "detachFromLayout": true,
-          "dynamicBindingPathList": [],
+          "bottomRow": 1300,
           "leftColumn": 0,
-          "minHeight": 810,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 64,
           "snapColumns": 64,
-          "snapRows": 79,
+          "snapRows": 130,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "version": 94,
+          "version": 1,
           "widgetId": "0",
           "widgetName": "MainContainer"
         }

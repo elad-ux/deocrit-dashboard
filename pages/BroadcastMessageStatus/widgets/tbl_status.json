@@ -1,0 +1,122 @@
+{
+  "animateLoading": true,
+  "bottomRow": 110,
+  "columnOrder": [
+    "business_name",
+    "contact_name",
+    "phone",
+    "template_name",
+    "status_label",
+    "sent_at",
+    "delivered_at",
+    "read_at",
+    "reply_text",
+    "error"
+  ],
+  "defaultSelectedRow": "0",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "isLoading"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": "{{GetMessageStatus.isLoading}}",
+  "isVisible": true,
+  "leftColumn": 1,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "business_name": {
+      "columnType": "text",
+      "id": "business_name",
+      "index": 0,
+      "isVisible": true,
+      "label": "עסק",
+      "width": 150
+    },
+    "contact_name": {
+      "columnType": "text",
+      "id": "contact_name",
+      "index": 1,
+      "isVisible": true,
+      "label": "איש קשר",
+      "width": 120
+    },
+    "delivered_at": {
+      "columnType": "text",
+      "id": "delivered_at",
+      "index": 6,
+      "isVisible": true,
+      "label": "נמסר",
+      "width": 150
+    },
+    "error": {
+      "columnType": "text",
+      "id": "error",
+      "index": 9,
+      "isVisible": true,
+      "label": "שגיאה",
+      "width": 200
+    },
+    "phone": {
+      "columnType": "text",
+      "id": "phone",
+      "index": 2,
+      "isVisible": true,
+      "label": "טלפון",
+      "width": 120
+    },
+    "read_at": {
+      "columnType": "text",
+      "id": "read_at",
+      "index": 7,
+      "isVisible": true,
+      "label": "נקרא",
+      "width": 150
+    },
+    "reply_text": {
+      "columnType": "text",
+      "id": "reply_text",
+      "index": 8,
+      "isVisible": true,
+      "label": "תגובה",
+      "width": 150
+    },
+    "sent_at": {
+      "columnType": "text",
+      "id": "sent_at",
+      "index": 5,
+      "isVisible": true,
+      "label": "נשלח",
+      "width": 150
+    },
+    "status_label": {
+      "columnType": "text",
+      "id": "status_label",
+      "index": 4,
+      "isVisible": true,
+      "label": "סטטוס",
+      "width": 100
+    },
+    "template_name": {
+      "columnType": "text",
+      "id": "template_name",
+      "index": 3,
+      "isVisible": true,
+      "label": "תבנית",
+      "width": 150
+    }
+  },
+  "rightColumn": 63,
+  "tableData": "{{ (GetMessageStatus.data && GetMessageStatus.data.sends ? GetMessageStatus.data.sends : []).map((s) => ({...s, status_label: ({queued:'בתור',sent:'נשלח',delivered:'נמסר',read:'נקרא',failed:'נכשל',cancelled:'בוטל'})[s.status] || s.status})) }}",
+  "topRow": 30,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "widgetId": "statustbl1",
+  "widgetName": "tbl_status"
+}
