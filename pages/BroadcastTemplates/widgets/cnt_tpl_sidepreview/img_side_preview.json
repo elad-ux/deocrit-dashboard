@@ -1,0 +1,25 @@
+{
+  "animateLoading": false,
+  "borderRadius": "0.5rem 0.5rem 0 0",
+  "bottomRow": 60,
+  "dynamicBindingPathList": [
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "image": "{{tbl_templates.selectedRow.header_sample_media_url}}",
+  "isLoading": false,
+  "isVisible": false,
+  "leftColumn": 1,
+  "objectFit": "cover",
+  "parentColumnSpace": 20.25,
+  "parentId": "cv_tpl_sidepreview",
+  "parentRowSpace": 10,
+  "rightColumn": 21,
+  "topRow": 34,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "w5h16v5x",
+  "widgetName": "img_side_preview"
+}

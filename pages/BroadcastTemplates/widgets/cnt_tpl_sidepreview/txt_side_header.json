@@ -1,0 +1,38 @@
+{
+  "animateLoading": false,
+  "backgroundColor": "#DCF8C6",
+  "borderRadius": "0px",
+  "bottomRow": 44,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.9rem",
+  "isLoading": false,
+  "isVisible": "{{tbl_templates.selectedRow.header_type === 'text' && !!tbl_templates.selectedRow.header_text}}",
+  "labelTextSize": "0.9rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.25,
+  "parentId": "cv_tpl_sidepreview",
+  "parentRowSpace": 10,
+  "rightColumn": 21,
+  "text": "{{tbl_templates.selectedRow.header_text}}",
+  "textAlign": "RIGHT",
+  "textColor": "#1E2A3A",
+  "topRow": 34,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "w8zmc82b",
+  "widgetName": "txt_side_header"
+}

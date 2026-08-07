@@ -1,0 +1,34 @@
+{
+  "animateLoading": false,
+  "borderRadius": "0px",
+  "bottomRow": 26,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.8rem",
+  "isLoading": false,
+  "isVisible": true,
+  "labelTextSize": "0.8rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.25,
+  "parentId": "cv_tpl_sidepreview",
+  "parentRowSpace": 10,
+  "rightColumn": 21,
+  "text": "{{tbl_templates.selectedRow.name}}",
+  "textAlign": "RIGHT",
+  "textColor": "#6B7280",
+  "topRow": 18,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "wuaq1ouq",
+  "widgetName": "txt_side_name"
+}

@@ -4,17 +4,24 @@
   "bottomRow": 217,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "isDisabled": false,
+  "isDisabled": "{{!!UpsertTemplate.isLoading}}",
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 33,
-  "onClick": "{{ UpsertTemplate.run(() => { closeModal('mdl_tpl_template'); GetTemplates.run(); }) }}",
+  "onClick": "{{ UpsertTemplate.run((res) => { if (res.success) { closeModal('mdl_tpl_template'); if (res.notice) { showAlert(res.notice, 'warning'); } else { showAlert('נשמר בהצלחה', 'success'); } GetTemplates.run(); } else { showAlert(res.error || 'שגיאה בשמירה', 'error'); } }, (err) => showAlert('שגיאת רשת: ' + err.message, 'error')) }}",
   "parentColumnSpace": 76.5,
   "parentId": "tplcvs1",
   "parentRowSpace": 10,
