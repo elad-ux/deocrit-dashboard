@@ -14,7 +14,7 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "overflow": "NONE",
-  "parentColumnSpace": 76.5,
+  "parentColumnSpace": 20.25,
   "parentId": "cvzacbgim",
   "parentRowSpace": 10,
   "rightColumn": 28,
