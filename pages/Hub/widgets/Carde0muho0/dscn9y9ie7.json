@@ -3,9 +3,17 @@
   "borderRadius": "0px",
   "bottomRow": 30,
   "boxShadow": "none",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "fontFamily": "System Default",
   "fontSize": "0.85rem",
   "isLoading": false,
@@ -13,6 +21,7 @@
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "onClick": "{{ navigateTo('Containers','','SAME_WINDOW') }}",
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
   "parentId": "cv2d1hic7",
