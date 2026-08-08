@@ -3,17 +3,9 @@
   "borderRadius": "0px",
   "bottomRow": 13,
   "boxShadow": "none",
-  "dynamicBindingPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "fontFamily": "System Default",
   "fontSize": "2rem",
   "isLoading": false,
@@ -21,7 +13,6 @@
   "leftColumn": 16,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "onClick": "{{ navigateTo('Users','','SAME_WINDOW') }}",
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
   "parentId": "cv3r3gx79",
