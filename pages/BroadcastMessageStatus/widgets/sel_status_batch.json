@@ -13,12 +13,12 @@
       "key": "optionValue"
     }
   ],
-  "dynamicTriggerPathList": [],
-  "dynamicTriggerPathList2": [
+  "dynamicTriggerPathList": [
     {
       "key": "onOptionChange"
     }
   ],
+  "isFilterable": false,
   "isLoading": false,
   "label": "סינון לפי קמפיין",
   "labelPosition": "Top",
