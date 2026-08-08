@@ -8,12 +8,6 @@
       "key": "sourceData"
     },
     {
-      "key": "optionLabel"
-    },
-    {
-      "key": "optionValue"
-    },
-    {
       "key": "defaultOptionValue"
     }
   ],
@@ -27,8 +21,8 @@
   "labelPosition": "Top",
   "leftColumn": 1,
   "onOptionChange": "{{ GetMessageStatus.run() }}",
-  "optionLabel": "{{sel_tpl_category.sourceData.map((item) => (item.label))}}",
-  "optionValue": "{{sel_tpl_category.sourceData.map((item) => (item.value))}}",
+  "optionLabel": "label",
+  "optionValue": "value",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,
