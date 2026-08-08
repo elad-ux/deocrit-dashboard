@@ -2,19 +2,28 @@
   "animateLoading": false,
   "backgroundColor": "#FFFFFF",
   "borderRadius": "0px",
-  "bottomRow": 182,
+  "bottomRow": 162,
   "boxShadow": "none",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "System Default",
   "fontSize": "0.8rem",
   "isLoading": false,
-  "isVisible": false,
+  "isVisible": "{{ !!(JSON.parse(tbl_templates.selectedRow.buttons || '[]')[4]) }}",
   "labelTextSize": "0.8rem",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "originalBottomRow": 182,
+  "originalTopRow": 170,
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
   "parentId": "cv_tpl_sidepreview",
@@ -23,7 +32,7 @@
   "text": "{{ (JSON.parse(tbl_templates.selectedRow.buttons || '[]')[4] || {}).text ? '🔘 ' + JSON.parse(tbl_templates.selectedRow.buttons)[4].text : '' }}",
   "textAlign": "CENTER",
   "textColor": "#00A5F4",
-  "topRow": 170,
+  "topRow": 150,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "wm7285u4",

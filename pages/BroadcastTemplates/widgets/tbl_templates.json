@@ -27,9 +27,10 @@
     "created_at",
     "updated_at",
     "header_text",
-    "footer_text"
+    "footer_text",
+    "meta_template_id"
   ],
-  "columnUpdatedAt": 1786068740107,
+  "columnUpdatedAt": 1786207319939,
   "defaultPageSize": 10,
   "delimiter": ",",
   "dynamicBindingPathList": [
@@ -44,6 +45,9 @@
     },
     {
       "key": "primaryColumns.footer_text.computedValue"
+    },
+    {
+      "key": "primaryColumns.meta_template_id.computedValue"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -547,6 +551,40 @@
       "validation": {},
       "verticalAlignment": "",
       "width": 70
+    },
+    "meta_template_id": {
+      "alias": "meta_template_id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_templates.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"meta_template_id\"])) : meta_template_id })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "",
+      "id": "meta_template_id",
+      "index": 17,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "meta_template_id",
+      "notation": "standard",
+      "originalId": "meta_template_id",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "",
+      "width": 150
     },
     "meta_template_name": {
       "alias": "meta_template_name",

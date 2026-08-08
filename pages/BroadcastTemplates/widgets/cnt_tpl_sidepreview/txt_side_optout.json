@@ -2,7 +2,7 @@
   "animateLoading": false,
   "backgroundColor": "#DCF8C6",
   "borderRadius": "0px",
-  "bottomRow": 110,
+  "bottomRow": 90,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -19,6 +19,8 @@
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "originalBottomRow": 110,
+  "originalTopRow": 102,
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
   "parentId": "cv_tpl_sidepreview",
@@ -27,7 +29,7 @@
   "text": "השב 'הסר' להסרה",
   "textAlign": "RIGHT",
   "textColor": "#6B7280",
-  "topRow": 102,
+  "topRow": 82,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "w8j1wsry",

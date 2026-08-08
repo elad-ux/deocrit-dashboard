@@ -2,7 +2,7 @@
   "animateLoading": false,
   "backgroundColor": "#DCF8C6",
   "borderRadius": "0px",
-  "bottomRow": 90,
+  "bottomRow": 70,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -19,6 +19,8 @@
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "originalBottomRow": 90,
+  "originalTopRow": 62,
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
   "parentId": "cv_tpl_sidepreview",
@@ -27,7 +29,7 @@
   "text": "{{tbl_templates.selectedRow.body_text}}",
   "textAlign": "RIGHT",
   "textColor": "#1E2A3A",
-  "topRow": 62,
+  "topRow": 66,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "wrigeeal",

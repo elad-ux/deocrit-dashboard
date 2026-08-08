@@ -1,23 +1,28 @@
 {
   "animateLoading": false,
   "borderRadius": "0.5rem 0.5rem 0 0",
-  "bottomRow": 60,
+  "bottomRow": 64,
   "dynamicBindingPathList": [
     {
       "key": "image"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
   "image": "{{tbl_templates.selectedRow.header_sample_media_url}}",
   "isLoading": false,
-  "isVisible": false,
+  "isVisible": "{{tbl_templates.selectedRow.header_type === 'image' && !!tbl_templates.selectedRow.header_sample_media_url}}",
   "leftColumn": 1,
   "objectFit": "cover",
+  "originalBottomRow": 60,
+  "originalTopRow": 34,
   "parentColumnSpace": 20.25,
   "parentId": "cv_tpl_sidepreview",
   "parentRowSpace": 10,
   "rightColumn": 21,
-  "topRow": 34,
+  "topRow": 38,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "w5h16v5x",
