@@ -22,14 +22,13 @@
       "key": "onOptionChange"
     }
   ],
-  "isFilterable": false,
   "isLoading": false,
   "label": "סינון לפי קמפיין",
   "labelPosition": "Top",
   "leftColumn": 1,
   "onOptionChange": "{{ GetMessageStatus.run() }}",
-  "optionLabel": "{{sel_status_batch.sourceData.map((item) => (item.label))}}",
-  "optionValue": "{{sel_status_batch.sourceData.map((item) => (item.value))}}",
+  "optionLabel": "{{sel_tpl_category.sourceData.map((item) => (item.label))}}",
+  "optionValue": "{{sel_tpl_category.sourceData.map((item) => (item.value))}}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -38,6 +37,6 @@
   "topRow": 8,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "statusfilt1",
+  "widgetId": "statusfilt2",
   "widgetName": "sel_status_batch"
 }
