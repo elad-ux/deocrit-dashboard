@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "1.5rem",
-  "bottomRow": 60,
+  "borderRadius": "0.75rem",
+  "bottomRow": 38,
   "boxShadow": "none",
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
@@ -16,19 +16,19 @@
   ],
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": "{{['products','admin'].includes(appsmith.store.userRole)}}",
+  "isVisible": "{{ ['products','admin'].includes(appsmith.store.userRole) }}",
   "labelTextSize": "0.875rem",
-  "leftColumn": 33,
+  "leftColumn": 1,
   "onClick": "{{ navigateTo('Products','','SAME_WINDOW') }}",
-  "parentColumnSpace": 76.5,
-  "parentId": "0",
+  "parentColumnSpace": 20.25,
+  "parentId": "cvh736r8i",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
-  "rightColumn": 62,
+  "rightColumn": 28,
   "text": "",
-  "topRow": 29,
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "go88305gb",
-  "widgetName": "Go4yc7v5q"
+  "widgetId": "cbdldbbcu",
+  "widgetName": "ClickOverlayxfjvpft"
 }

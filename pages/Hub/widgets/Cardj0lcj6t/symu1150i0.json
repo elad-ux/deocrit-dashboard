@@ -1,7 +1,7 @@
 {
   "animateLoading": false,
   "borderRadius": "0px",
-  "bottomRow": 24,
+  "bottomRow": 13,
   "boxShadow": "none",
   "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
@@ -21,7 +21,7 @@
   "text": "📣",
   "textAlign": "CENTER",
   "textColor": "#B8863B",
-  "topRow": 8,
+  "topRow": 3,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "wvhh9f11",
