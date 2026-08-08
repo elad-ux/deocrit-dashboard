@@ -5,7 +5,7 @@
     "layouts": [
       {
         "dsl": {
-          "bottomRow": 5200,
+          "bottomRow": 1100,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "parentColumnSpace": 1,

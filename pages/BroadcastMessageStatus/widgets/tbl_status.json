@@ -22,6 +22,11 @@
       "key": "isLoading"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isLoading": "{{GetMessageStatus.isLoading}}",
@@ -113,7 +118,7 @@
     }
   },
   "rightColumn": 63,
-  "tableData": "{{ (GetMessageStatus.data && GetMessageStatus.data.sends ? GetMessageStatus.data.sends : []).map((s) => ({...s, status_label: ({queued:'בתור',sent:'נשלח',delivered:'נמסר',read:'נקרא',failed:'נכשל',cancelled:'בוטל'})[s.status] || s.status})) }}",
+  "tableData": "{{GetMessageStatus.data.sends}}",
   "topRow": 30,
   "type": "TABLE_WIDGET_V2",
   "version": 1,
