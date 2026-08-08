@@ -29,7 +29,7 @@
     },
     "name": "GetStatusBatches",
     "pageId": "BroadcastMessageStatus",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -1,7 +1,7 @@
 {
-  "session_token": "{{appsmith.store.sessionToken}}",
+  "session_token": {{appsmith.store.sessionToken}},
   "action": "list_message_status",
   "payload": {
-    "batch_id": "{{sel_status_batch.selectedOptionValue || ''}}"
+    "batch_id": ""
   }
 }

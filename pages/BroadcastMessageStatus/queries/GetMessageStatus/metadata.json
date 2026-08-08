@@ -5,7 +5,7 @@
   "pluginType": "API",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "{\n  \"session_token\": \"{{appsmith.store.sessionToken}}\",\n  \"action\": \"list_message_status\",\n  \"payload\": {\n    \"batch_id\": \"{{sel_status_batch.selectedOptionValue || ''}}\"\n  }\n}",
+      "body": "{\n  \"session_token\": {{appsmith.store.sessionToken}},\n  \"action\": \"list_message_status\",\n  \"payload\": {\n    \"batch_id\": \"\"\n  }\n}",
       "encodeParamsToggle": true,
       "headers": [
         {
