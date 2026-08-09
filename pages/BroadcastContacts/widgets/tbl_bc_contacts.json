@@ -178,7 +178,7 @@
       "alias": "categories_display",
       "allowCellWrapping": true,
       "columnType": "text",
-      "computedValue": "{{ (currentRow.categories || []).map((c) => c.name).join(', ') }}",
+      "computedValue": "{{ GetBCContacts.data.contacts.map((row) => (row.categories || []).map((c) => c.name).join(', ')) }}",
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",

@@ -5,7 +5,7 @@
   "pluginType": "API",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "{\n  \"session_token\": \"{{appsmith.store.sessionToken}}\",\n  \"action\": \"upsert\",\n  \"payload\": {\n    \"id\": \"{{appsmith.store.bcEditId || ''}}\",\n    \"business_name\": \"{{inp_bc_business.text}}\",\n    \"contact_name\": \"{{inp_bc_contact.text}}\",\n    \"phone\": \"{{inp_bc_phone.text}}\",\n    \"city\": \"{{inp_bc_city_field.text}}\",\n    \"category_ids\": {{JSON.stringify(msel_bc_categories.selectedOptionValues || [])}}\n  }\n}",
+      "body": "{\n  \"session_token\": \"{{appsmith.store.sessionToken}}\",\n  \"action\": \"upsert\",\n  \"payload\": {\n    \"id\": \"{{appsmith.store.bcEditId || ''}}\",\n    \"business_name\": \"{{inp_bc_business.text}}\",\n    \"contact_name\": \"{{inp_bc_contact.text}}\",\n    \"phone\": \"{{inp_bc_phone.text}}\",\n    \"city\": \"{{inp_bc_city_field.text}}\",\n    \"category_ids\": {{JSON.stringify(msel_bc_categories.selectedOptionValues || msel_bc_categories.value || msel_bc_categories.selectedOptionValueArr || [])}}\n  }\n}",
       "encodeParamsToggle": true,
       "headers": [
         {
