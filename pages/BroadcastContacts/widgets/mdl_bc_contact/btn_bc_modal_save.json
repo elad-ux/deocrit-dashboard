@@ -4,17 +4,21 @@
   "bottomRow": 51,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "isDisabled": false,
+  "isDisabled": "{{!!UpsertBCContact.isLoading}}",
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 33,
-  "onClick": "{{ UpsertBCContact.run(() => { closeModal('mdl_bc_contact'); GetBCContacts.run(); }) }}",
+  "onClick": "{{ UpsertBCContact.run((res) => { if (res && res.success===false) { showAlert(res.error || 'שגיאה בשמירה', 'error'); } else { closeModal('mdl_bc_contact'); GetBCContacts.run(); showAlert('נשמר בהצלחה', 'success'); } }, (err) => showAlert('שגיאת רשת: ' + err.message, 'error')) }}",
   "parentColumnSpace": 76.5,
   "parentId": "cvs1",
   "parentRowSpace": 10,
