@@ -1,0 +1,35 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#1E2A3A",
+  "borderRadius": "0px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 50,
+      "leftColumn": 0,
+      "parentColumnSpace": 1,
+      "parentId": "statushdrbg1",
+      "parentRowSpace": 1,
+      "rightColumn": 4896,
+      "snapColumns": 64,
+      "snapRows": 5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "widgetId": "statushdrcv1"
+    }
+  ],
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "leftColumn": 0,
+  "parentColumnSpace": 76.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "statushdrbg1",
+  "widgetName": "cnt_status_header_bg"
+}

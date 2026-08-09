@@ -77,7 +77,7 @@
       "isDefault": false
     },
     {
-      "id": "BroadcastMessageStatus",
+      "id": "BroadcastMessageStatusOld",
       "isDefault": false
     },
     {
@@ -85,7 +85,7 @@
       "isDefault": false
     },
     {
-      "id": "Page3",
+      "id": "BroadcastMessageStatus",
       "isDefault": false
     }
   ],

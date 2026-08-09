@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6a418a826d3fda31091c7857_78d18fc5-531a-46f6-bfef-12f9b52af0c0",
-  "id": "Page3_GetStatusBatches",
+  "gitSyncId": "6a418a826d3fda31091c7857_6abf6b62-caac-40e3-8ae8-fa0e381fa9e7",
+  "id": "BroadcastMessageStatusOld_GetStatusBatches",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       "pluginId": "restapi-plugin"
     },
     "name": "GetStatusBatches",
-    "pageId": "Page3",
+    "pageId": "BroadcastMessageStatusOld",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

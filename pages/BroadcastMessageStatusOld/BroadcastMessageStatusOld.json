@@ -1,22 +1,18 @@
 {
-  "gitSyncId": "6a418a826d3fda31091c7857_09fa7db0-c813-45ed-ab3a-f949a5662d0c",
+  "gitSyncId": "6a418a826d3fda31091c7857_80c69112-40a9-4c08-aaf5-d5ed67af0609",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
-          "backgroundColor": "none",
-          "bottomRow": 490,
-          "canExtend": true,
-          "containerStyle": "none",
-          "detachFromLayout": true,
+          "bottomRow": 1100,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 670,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 256,
           "snapColumns": 64,
-          "snapRows": 65,
+          "snapRows": 129,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -25,7 +21,7 @@
         }
       }
     ],
-    "name": "Page3",
-    "slug": "page3"
+    "name": "BroadcastMessageStatusOld",
+    "slug": "broadcastmessagestatusold"
   }
 }
