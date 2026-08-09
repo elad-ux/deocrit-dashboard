@@ -1,6 +1,7 @@
 {
   "bottomRow": 6,
-  "buttonVariant": "SECONDARY",
+  "buttonColor": "#1E2A3A",
+  "buttonVariant": "OUTLINE",
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
     {
