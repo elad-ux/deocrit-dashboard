@@ -178,7 +178,7 @@
       "allowCellWrapping": false,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{ tbl_bc_contacts.sanitizedTableData.map((row) => (row.categories || []).map((c) => c.name).join(', ')) }}",
+      "computedValue": "{{ (currentRow.categories || []).map((c) => c.name).join(', ') }}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
