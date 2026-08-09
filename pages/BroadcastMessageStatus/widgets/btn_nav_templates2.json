@@ -1,0 +1,27 @@
+{
+  "bottomRow": 6,
+  "buttonVariant": "SECONDARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "98lv7ttox",
+  "leftColumn": 24,
+  "onClick": "{{ navigateTo('BroadcastTemplates','','SAME_WINDOW') }}",
+  "parentColumnSpace": 20.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "rightColumn": 34,
+  "text": "תבניות",
+  "topRow": 0,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "s0s6cb57t",
+  "widgetName": "btn_nav_templates2"
+}
