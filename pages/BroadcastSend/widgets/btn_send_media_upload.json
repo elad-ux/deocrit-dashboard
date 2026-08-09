@@ -24,7 +24,7 @@
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 52,
-  "onClick": "{{ UploadSendMedia.run(() => { storeValue('def_sendmedia1', UploadSendMedia.data.url); resetWidget('inp_send_media'); }) }}",
+  "onClick": "{{ UploadSendMedia.run((res) => { if (res && res.success) { storeValue('def_sendmedia1', res.url); resetWidget('inp_send_media'); showAlert('הקובץ הועלה בהצלחה', 'success'); } else { showAlert((res && res.error) || 'שגיאה בהעלאת הקובץ', 'error'); } }, (err) => showAlert('שגיאת רשת בהעלאה: ' + err.message, 'error')) }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,

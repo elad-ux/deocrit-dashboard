@@ -4,17 +4,21 @@
   "bottomRow": 24,
   "boxShadow": "none",
   "buttonVariant": "TERTIARY",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "isDisabled": false,
+  "isDisabled": "{{!!CountTarget.isLoading}}",
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 46,
-  "onClick": "{{ CountTarget.run() }}",
+  "onClick": "{{ CountTarget.run((res) => { if (res && res.success===false) { showAlert(res.error || 'שגיאה בספירה', 'error'); } }, (err) => showAlert('שגיאת רשת: ' + err.message, 'error')) }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,
