@@ -44,6 +44,9 @@
     },
     {
       "key": "primaryColumns.categories.computedValue"
+    },
+    {
+      "key": "primaryColumns.category.computedValue"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -158,7 +161,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "categories",
       "notation": "standard",
       "originalId": "categories",
@@ -175,7 +178,7 @@
       "allowCellWrapping": false,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "",
+      "computedValue": "{{ tbl_bc_contacts.sanitizedTableData.map((row) => (row.categories || []).map((c) => c.name).join(', ')) }}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
