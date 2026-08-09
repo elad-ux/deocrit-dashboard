@@ -2,7 +2,7 @@
   "animateLoading": true,
   "bottomRow": 460,
   "canEscapeKeyClose": true,
-  "canOutsideClickClose": true,
+  "canOutsideClickClose": false,
   "children": [
     {
       "animateLoading": true,
