@@ -6,7 +6,7 @@
   "children": [
     {
       "animateLoading": true,
-      "bottomRow": 460,
+      "bottomRow": 510,
       "bottomRowBeforeCollapse": 460,
       "canExtend": false,
       "containerStyle": "none",

@@ -14,7 +14,7 @@
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 58,
-  "onClick": "{{ storeValue('bcEditId',''); resetWidget('inp_bc_business'); resetWidget('inp_bc_contact'); resetWidget('inp_bc_phone'); resetWidget('inp_bc_city_field'); resetWidget('inp_bc_category_field'); showModal('mdl_bc_contact') }}",
+  "onClick": "{{ storeValue('bcEditId',''); resetWidget('inp_bc_business'); resetWidget('inp_bc_contact'); resetWidget('inp_bc_phone'); resetWidget('inp_bc_city_field'); resetWidget('msel_bc_categories'); showModal('mdl_bc_contact') }}",
   "parentColumnSpace": 76.5,
   "parentId": "0",
   "parentRowSpace": 10,

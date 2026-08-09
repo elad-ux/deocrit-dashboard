@@ -7,6 +7,6 @@
     "contact_name": "{{inp_bc_contact.text}}",
     "phone": "{{inp_bc_phone.text}}",
     "city": "{{inp_bc_city_field.text}}",
-    "category": "{{inp_bc_category_field.text}}"
+    "category_ids": {{JSON.stringify(msel_bc_categories.selectedOptionValues || [])}}
   }
 }

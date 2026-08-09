@@ -1,0 +1,43 @@
+{
+  "animateLoading": false,
+  "bottomRow": 49,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ [] }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "0hzeyiayi",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelText": "קטגוריות",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 38,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 76.5,
+  "parentId": "cvs1",
+  "parentRowSpace": 10,
+  "placeholderText": "בחר קטגוריות...",
+  "rightColumn": 63,
+  "serverSideFiltering": false,
+  "sourceData": "{{ ListCategories.data.categories || [] }}",
+  "topRow": 38,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "87uldun0a",
+  "widgetName": "msel_bc_categories"
+}

@@ -13,8 +13,20 @@
     "status_text",
     "edit_action",
     "pause_action",
-    "delete_action"
+    "delete_action",
+    "id",
+    "active",
+    "opted_out",
+    "opted_out_at",
+    "opted_out_source",
+    "reactivated_by",
+    "reactivated_at",
+    "source_file",
+    "created_at",
+    "updated_at",
+    "categories"
   ],
+  "columnUpdatedAt": 1786246462349,
   "defaultPageSize": 10,
   "delimiter": ",",
   "dynamicBindingPathList": [
@@ -29,6 +41,9 @@
     },
     {
       "key": "primaryColumns.pause_action.buttonLabel"
+    },
+    {
+      "key": "primaryColumns.categories.computedValue"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -120,6 +135,40 @@
       "validation": {},
       "verticalAlignment": "",
       "width": 160
+    },
+    "categories": {
+      "alias": "categories",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = tbl_bc_contacts.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"categories\"])) : categories })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "",
+      "id": "categories",
+      "index": 15,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "categories",
+      "notation": "standard",
+      "originalId": "categories",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "",
+      "width": 150
     },
     "category": {
       "alias": "category",
@@ -319,7 +368,7 @@
       "isVisible": true,
       "label": "עריכה",
       "notation": "standard",
-      "onClick": "{{ storeValue('bcEditId', currentRow.id); setValue('inp_bc_business', currentRow.business_name); setValue('inp_bc_contact', currentRow.contact_name); setValue('inp_bc_phone', currentRow.phone); setValue('inp_bc_city_field', currentRow.city); setValue('inp_bc_category_field', currentRow.category); showModal('mdl_bc_contact') }}",
+      "onClick": "{{ storeValue('bcEditId', currentRow.id); setValue('inp_bc_business', currentRow.business_name); setValue('inp_bc_contact', currentRow.contact_name); setValue('inp_bc_phone', currentRow.phone); setValue('inp_bc_city_field', currentRow.city); setValue('msel_bc_categories', (currentRow.categories || []).map((c) => c.id)); showModal('mdl_bc_contact') }}",
       "originalId": "edit_action",
       "sticky": "",
       "textColor": "",
