@@ -4,9 +4,13 @@
   "borderRadius": "0px",
   "bottomRow": 29,
   "boxShadow": "none",
+  "defaultText": "{{appsmith.store.def_bc_phone || ''}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",

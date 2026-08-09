@@ -2,7 +2,7 @@
   "animateLoading": false,
   "bottomRow": 49,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ [] }}",
+  "defaultOptionValue": "{{appsmith.store.def_bc_categories || []}}",
   "dynamicBindingPathList": [
     {
       "key": "sourceData"

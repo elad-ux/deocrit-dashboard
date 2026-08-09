@@ -368,7 +368,7 @@
       "isVisible": true,
       "label": "עריכה",
       "notation": "standard",
-      "onClick": "{{ storeValue('bcEditId', currentRow.id); setValue('inp_bc_business', currentRow.business_name); setValue('inp_bc_contact', currentRow.contact_name); setValue('inp_bc_phone', currentRow.phone); setValue('inp_bc_city_field', currentRow.city); setValue('msel_bc_categories', (currentRow.categories || []).map((c) => c.id)); showModal('mdl_bc_contact') }}",
+      "onClick": "{{ storeValue('bcEditId', currentRow.id); storeValue('def_bc_business', currentRow.business_name); storeValue('def_bc_contact', currentRow.contact_name); storeValue('def_bc_phone', currentRow.phone); storeValue('def_bc_city', currentRow.city); storeValue('def_bc_categories', (currentRow.categories || []).map((c) => c.id)).then(() => { resetWidget('inp_bc_business'); resetWidget('inp_bc_contact'); resetWidget('inp_bc_phone'); resetWidget('inp_bc_city_field'); resetWidget('msel_bc_categories'); showModal('mdl_bc_contact'); }) }}",
       "originalId": "edit_action",
       "sticky": "",
       "textColor": "",
