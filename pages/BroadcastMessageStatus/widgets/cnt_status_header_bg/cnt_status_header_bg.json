@@ -9,14 +9,14 @@
       "bottomRow": 50,
       "leftColumn": 0,
       "parentColumnSpace": 1,
-      "parentId": "statushdrbg1",
+      "parentId": "psl2qpfyp",
       "parentRowSpace": 1,
       "rightColumn": 4896,
       "snapColumns": 64,
       "snapRows": 5,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
-      "widgetId": "statushdrcv1"
+      "widgetId": "uxvpfjanq"
     }
   ],
   "dynamicBindingPathList": [],
@@ -30,6 +30,6 @@
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "statushdrbg1",
+  "widgetId": "psl2qpfyp",
   "widgetName": "cnt_status_header_bg"
 }
